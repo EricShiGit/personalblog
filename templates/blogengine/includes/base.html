@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{% block title %}My Django Blog{% endblock %}</title>
+        <title>{% block title %}Shi Blog{% endblock %}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -37,39 +37,98 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
 
-        <div class="navbar navbar-static-top navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-nav">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">Shi Blog</a>
-                </div>
-                    <div class="collapse navbar-collapse" id="header-nav">
-                        <ul class="nav navbar-nav">
-                            <li><a href="/about/">About me</a></li>
-                            <li><a href="/feeds/posts/">RSS feed</a></li>
-                            <li><a href="/feeds/posts/">Resume</a></li>
-                            <li><a href="/feeds/posts/">Projects</a></li>
-                            <li><a href="/feeds/posts/">Contact Information</a></li>
-                            {% load flatpages %}
+
+
+<nav class="navbar navbar-default" role="navigation">
+
+  <div class="container-fluid">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Shi Blog</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+         {% load flatpages %}
                             {% get_flatpages as flatpages %}
                             {% for flatpage in flatpages %}
                             <li><a href="{{ flatpage.url }}">{{ flatpage.title }}</a></li>
                             {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <li><a href="#">Static Place Holder</a></li>
+        <li><a href="#">Static Place Holder</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">static place holder</a></li>
+            <li><a href="#">static place holder</a></li>
+            <li><a href="#">static place holder</a></li>
+            <li class="divider"></li>
+            <li><a href="#">static place holder</a></li>
+            <li class="divider"></li>
+            <li><a href="#">static place holder</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
         </div>
-
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact me</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Static place holder</a></li>
+            <li><a href="#">Static place holder</a></li>
+            <li><a href="#">Static place holder</a></li>
+            <li class="divider"></li>
+            <li><a href="#">log off</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
         <div class="container">
+
             {% block header %}
-                <div class="page-header">
-                    <h1>My Django Blog</h1>
+              
+           
+            <div class="page-header">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="page-header">
+                        
+  <h1>Eric Shi <small>Mechatronics Engineering Student</small></h1>
+</div>
+
+                    <p class = "about-eric">I'm an Engineering student at the University of Waterloo. I'm interested in robotics and software engineering. I'm a technology enthusiast who enjoys taking on new challenges and driving innovation. My experience ranges from machining, hardware/circuitry, and software design. I have experience in hosting public event and public speaking through several community initiatives. I believe in spirited teamwork and success through collaboration.  I’ve interned at TELUS’s Voice Activation team and Canadian Tire’s International Transportation Development department. I’m very passionate about jazz, Olympic weightlifting, and competitive e-sports. </a>
                 </div>
+                 
+                 <div class="col-md-4">    <img class="img-circle"
+            src= "{% static 'images/eric.jpg' %}" width=240
+            height=240 /> </div>
+
+            </div>
+            </div>
+                   <h2>Blog</h2>    
+     <div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+  <strong>Hey!</strong> This website is not finished yet ! Pls no copy pastarino. Kappa
+</div>
+     
             {% endblock %}
 
             <div class="row">
