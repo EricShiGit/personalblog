@@ -6,7 +6,9 @@ from django.contrib.sites.models import Site
 from django.contrib.auth.models import User
 import markdown2 as markdown
 import feedparser
-
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 # Create your tests here.
 class PostTest(TestCase):
     def test_create_category(self):
