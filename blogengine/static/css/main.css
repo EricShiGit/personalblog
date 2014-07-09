@@ -235,14 +235,22 @@ h2,h3 {
 #feedback .feedbk-btn-close {
     display: none;
     float: right;
-    width: 24px;
-    height: 24px;
-    margin: 5px 5px 0px 0px;
+    width: 50px;
+    height: 12px;
+    margin: 5px 5px 5px 5px;
     cursor: pointer;
-    background-image: url(../img/cross-circle.png);
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#feedback .feedbk-btn-close:before {
+    position: relative;
+        font-family: FontAwesome;
+        font-size: 30px;
+        color: #398eb5;
+        content: "\f05c";
+}
+
 #feedback.uit-open .feedbk-btn-close { display: block; }
 
 
@@ -304,11 +312,6 @@ h2,h3 {
 #feedbk_send_btn .uit-icon{ color: white; }
 
 #feedback .icon-question-sign, 
-#feedback .icon-bullhorn { 
-    background-image: url(//cdn.tsl.telus.com/libs/telus-bootstrap/1.0.0/css/icons/glyphicons-halflings.png);
-}
+
 #feedback .nav-pills > .active .icon-question-sign, 
 #feedback .nav-pills > .uit-modified .icon-question-sign, 
-#feedback .icon-bullhorn {
-    background-image: url(//cdn.tsl.telus.com/libs/telus-bootstrap/1.0.0/css/icons/glyphicons-halflings-white.png);
-}
