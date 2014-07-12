@@ -568,7 +568,7 @@ Co-op
 
 .view {
    width: 300px;
-   height: 200px;
+   height: 210px;
    margin: 10px;
    float: left;
    border: 10px solid #fff;
@@ -583,7 +583,7 @@ Co-op
 }
 .view .mask,.view .content {
    width: 300px;
-   height: 200px;
+   height: 210px;
    position: absolute;
    overflow: hidden;
    top: 0;
@@ -689,8 +689,6 @@ Co-op
    filter: alpha(opacity=100);
    opacity: 1;
 }
-
-// 300 pixels per picture + 3x20 pixels padding
 .centerfl {
    width: 960px ;
   margin-left: auto ;

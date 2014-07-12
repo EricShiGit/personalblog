@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_tutorial_blog_ng.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangoblog.settings")
 
 from django.core.wsgi import get_wsgi_application
 from dj_static import Cling
