@@ -5,10 +5,13 @@
     {% block content %}
         {% if object_list %}
             {% for post in object_list %}
+
             <div class="post col-md-12">
-            <h1><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h1>
-            <h3>{{ post.pub_date }}</h3>
-            {{ post.text|custom_markdown }}
+            <header1>
+            <a class ="blogtitle" style="text-decoration:none;" href="{{ post.get_absolute_url }}">{{ post.title }}  </a>
+            <span> {{ post.pub_date }}</span>
+            </header1>
+                   {{ post.text|custom_markdown }}
             </div>
             {% if post.category %}
             <div class="col-md-12">
