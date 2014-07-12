@@ -4,6 +4,13 @@ from blogengine.models import Category, Post, Tag
 from django.contrib.syndication.views import Feed
 
 # Create your views here.
+
+
+class HomeView(ListView):
+    def get_queryset(self):
+            return Post.objects.none()
+
+
 class CategoryListView(ListView):
     def get_queryset(self):
         slug = self.kwargs['slug']
