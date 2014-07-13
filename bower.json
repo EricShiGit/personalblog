@@ -16,8 +16,7 @@
   ],
   "dependencies": {
     "bootstrap": "~3.2.0",
-    "html5-boilerplate": "~4.3.0",
-    "MathJax": "~2.4.0"
+    "html5-boilerplate": "~4.3.0"
   },
   "homepage": "https://github.com/ericshitron/personalblog"
 }
