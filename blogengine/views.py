@@ -2,13 +2,17 @@ from django.shortcuts import render
 from django.views.generic import ListView
 from blogengine.models import Category, Post, Tag
 from django.contrib.syndication.views import Feed
-
+from django.template.loader import get_template
+from django.template import Context
+from django.http import HttpResponse
 # Create your views here.
 
 
-class HomeView(ListView):
-    def get_queryset(self):
-            return Post.objects.none()
+def home(request):
+    name = "Eric"
+    t = get_template('blogengine/home.html')
+    html = t.render(Context({'name': name}))
+    return HttpResponse(html)
 
 
 class CategoryListView(ListView):
