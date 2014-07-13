@@ -1,5 +1,5 @@
 {
-  "name": "bower install bootstrap html5-boilerplate --save",
+  "name": "djangoblog",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -7,6 +7,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "blogengine/static/bower_components",
     "test",
     "tests"
   ],
@@ -15,6 +16,8 @@
   ],
   "dependencies": {
     "bootstrap": "~3.2.0",
-    "html5-boilerplate": "~4.3.0"
-  }
+    "html5-boilerplate": "~4.3.0",
+    "MathJax": "~2.4.0"
+  },
+  "homepage": "https://github.com/ericshitron/personalblog"
 }

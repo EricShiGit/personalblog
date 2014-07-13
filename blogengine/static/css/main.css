@@ -8,6 +8,18 @@ div.codehilite pre {
 	font-weight:300;
 }
 
+.blogtitle {
+	font-size:25px;
+	color:#800000;
+	font-weight:300;
+}
+
+.blogtitle:after {
+   content: "";
+    clear: both;
+    display: block;;
+}
+
 .page-background
 {
 	 background-image: url(../images/polaroid.png)
@@ -38,7 +50,7 @@ div.codehilite pre {
     overflow: hidden;
     position: relative;
     display: block;
-    background: #fff;
+    background: #fdfbf2;
     -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -373,10 +385,10 @@ Social Media Icons
     left: 50%;
     margin-left: -64px;
     font-family: 'Alegreya SC', Georgia, serif;
-    font-weight: 400;   
+    font-weight: 400;
     font-style: italic;
-    font-size: 14px;
-    color: #719DAB;
+    font-size: 17px;
+    color: #f5f5dc;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     text-align: center;
     border: 4px solid #fff;
@@ -609,7 +621,7 @@ Co-op
    font-size: 12px;
    position: relative;
    color: #fff;
-   padding: 10px 20px 20px;
+   padding: 0px 5px 5px;
    text-align: center;
 }
 .view a.info {
@@ -694,3 +706,12 @@ Co-op
   margin-left: auto ;
   margin-right: auto ;
   }
+
+header1 { }
+header1 > a { display: inline-block; }
+header1 span {
+ margin-left: 25px;
+ 	font-size:16px;
+	color:rgb(189, 54, 47);
+	font-weight:300;
+ }
