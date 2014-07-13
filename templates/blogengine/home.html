@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>{% block title %}Eric Shi{% endblock %}</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+   {% load staticfiles %}
+   <link rel="stylesheet" href="{% static 'bower_components/html5-boilerplate/css/normalize.css' %}">
+   <link rel="stylesheet" href="{% static 'bower_components/html5-boilerplate/css/main.css' %}">
+   <link rel="stylesheet" href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}">
+   <link rel="stylesheet" href="{% static 'bower_components/bootstrap/dist/css/bootstrap-theme.min.css' %}">
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="{% static 'css/main.css' %}">
+   <link rel="stylesheet" href="{% static 'css/code.css' %}">
+   <link rel="stylesheet" href="{% static 'css/slush.css' %}">
+   <script src = "{% static 'bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js' %}"></script>
+</head>
+
+<!--Top right-->
+<div id="feedback" class="hidden-phone">
+   <span class="feedbk-btn-close">&nbsp;</span>
+   <div class="feedbk-cont">
+      <h4>It would be great to hear from you. I will get back to you as soon as possible.</h4>
+      <h5>Select a category:</h5>
+      <div class="tabbable">
+         <ul class="nav nav-pills span">
+            <li><a href="#feedbk_question" data-toggle="tab">
+               <span class="uit-icon"></span>Ask me a question!
+               </a>
+            </li>
+            <li><a href="#feedbk_idea" data-toggle="tab">
+               <span class="uit-icon icon-lightbulb"></span>Share an idea
+               </a>
+            </li>
+            <li><a href="#feedbk_bug" data-toggle="tab">
+               <span class="uit-icon icon-warning-inverted"></span>Professional
+               </a>
+            </li>
+            <li><a href="#feedbk_kudos" data-toggle="tab">
+               <span class="uit-icon icon-heart"></span>Other
+               </a>
+            </li>
+         </ul>
+         <div class="tab-content span">
+            <div class="tab-pane active">
+            </div>
+            <div class="tab-pane" id="feedbk_question">
+               <h5>Sure, ask away!</h5>
+               <textarea class="feedbk-input" placeholder="What is your question?"></textarea>
+            </div>
+            <div class="tab-pane" id="feedbk_idea">
+               <h5>Interesting, let's hear it.</h5>
+               <textarea class="feedbk-input" placeholder="I'll make sure to look into it!"></textarea>
+            </div>
+            <div class="tab-pane" id="feedbk_bug">
+               <h5>I will get back to you as soon as possible.</h5>
+               <textarea class="feedbk-input"></textarea>
+            </div>
+            <div class="tab-pane" id="feedbk_kudos">
+               <h5>Sure, go ahead!</h5>
+               <textarea class="feedbk-input"></textarea>
+            </div>
+         </div>
+      </div>
+      <div style="clear:both;"></div>
+      <a class="btn btn-success disabled" id="feedbk_send_btn" href="mailto:ericshi2009@gmail.com?Subject=Contact Eric"><span class="uit-icon icon-envelope"></span>&nbsp;&nbsp;Send Email</a>
+      <a id="feedbk_clr_btn" class="btn btn-danger" href="javascript:void(0)">
+      <i class="fa fa-trash-o fa-lg"></i> Clear all input</a>
+      <div style="clear:both;"></div>
+   </div>
+   <div style="clear:both;"></div>
+   <button class="btn btn-lg btn-success" id="feedback_button">
+   Send me an Email
+   </button>
+</div>
+
+<!-- Add your site or application content here -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+       fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+{% block header %}
+<div class = "container">
+   <header>
+      <br><br>
+      <h1>Eric Shi<span>Mechatronics Engineering</span></h1>
+      <p>Second Year Engineering Student at the University of Waterloo</p>
+   </header>
+</div>
+<!-- Colours that are good10,8,7 ,5,1-->
+<section class="color-5">
+   <div class="container">
+      <div class="page-header">
+         <div class="row">
+            <div class="col-md-6">
+               <ul class="ca-menu">
+                  <li>
+                     <a href="#">
+                        <span class="ca-icon">F</span>
+                        <div class="ca-content">
+                           <h2 class="ca-main">Projects</h2>
+                           <h3 class="ca-sub">Courseware, work, and personal</h3>
+                        </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <span class="ca-icon">U</span>
+                        <div class="ca-content">
+                           <h2 class="ca-main">Eric Shi</h2>
+                           <h3 class="ca-sub">About me</h3>
+                        </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <span class="ca-icon">a</span>
+                        <div class="ca-content">
+                           <h2 class="ca-main">Resume</h2>
+                           <h3 class="ca-sub">Looking for Winter 2014 Co-op</h3>
+                        </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <span class="ca-icon">l</span>
+                        <div class="ca-content">
+                           <h2 class="ca-main">Linkedin Profile</h2>
+                           <h3 class="ca-sub">Professional profile</h3>
+                        </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <span class="ca-icon">@</span>
+                        <div class="ca-content">
+                           <h2 class="ca-main">Contact Information</h2>
+                           <h3 class="ca-sub">Feedback, questions, and opportunities</h3>
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-md-6">
+               <div class="normal-trigger-area">
+                  <a href="#" id="circle" class="ec-circle">
+                     <h3>About Me</h3>
+                  </a>
+               </div>
+               <div>
+                  <ul class="tt-wrapper">
+                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                     <li>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                     </li>
+                     <li><a class="tt-gplus" href="#"><span>Google Plus</span></a></li>
+                     <li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
+                     <li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
+                     <li><a class="tt-linkedin" href="#"><span>LinkedIn</span></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="color-8">
+   <div class = "container">
+      <header>
+         <br><br>
+         <h1>Work Experience</h1>
+      </header>
+      <div class = "centerfl">
+         <div class="view view-fifth">
+            <img src="{% static 'images/tire.png' %}" style= "width: 100%;max-height: 100%" />
+            <div class="mask">
+               <h2>Hover Style #5</h2>
+               <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+               <a href="#" class="info">Read More</a>
+            </div>
+         </div>
+         <div class="view view-fifth">
+            <img src="{% static 'images/term1.png' %}" style= "width: 100%;max-height: 100%" />
+            <div class="mask">
+               <h2>Hover Style #5</h2>
+               <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+               <a href="#" class="info">Read More</a>
+            </div>
+         </div>
+         <div class="view view-fifth">
+            <img src="{% static 'images/term2.png' %}" style= "width: 100%;max-height: 100%" />
+            <div class="mask">
+               <h2>Hover Style #5</h2>
+               <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+               <a href="#" class="info">Read More</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<div class = "container">
+<h2>Blog</h2>
+<div class="alert alert-warning alert-dismissible" role="alert">
+   <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+   <strong>Hey!</strong> This website is not finished yet ! Pls no copy pastarino. Kappa
+</div>
+{% endblock %}
+<div class="row">
+    {% block content %}{% endblock %}
+</div>
+</div>
+<div class="container footer">
+   <div class="row">
+      <div class="span12">
+         <p>Copyright &copy; {% now "Y" %}</p>
+      </div>
+   </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{% static 'bower_components/html5-boilerplate/js/vendor/jquery-1.10.2.min.js' %}"><\/script>')</script>
+<script src="{% static 'bower_components/html5-boilerplate/js/plugins.js' %}"></script>
+<script src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src = "{% static 'javascript/sliding.js' %}"></script>
+<script src = "{% static 'javascript/jquery.circlemouse.js' %}"></script>
+<script src = "{% static 'javascript/modernizr.custom.72835.js' %}"></script>
+<script type="text/javascript" src = "{% static 'bower_components/MathJax/MathJax.js' %}"></script>
+<script
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+type="text/javascript">
+</script><script>
+   $(function() {
+
+       $('#circle').circlemouse({
+           onMouseEnter    : function( el ) {
+
+               el.addClass('ec-circle-hover');
+
+           },
+           onMouseLeave    : function( el ) {
+
+               el.removeClass('ec-circle-hover');
+
+           },
+           onClick         : function( el ) {
+
+               alert('clicked');
+
+           }
+       });
+
+   });
+</script>
+</html>
