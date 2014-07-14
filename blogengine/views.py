@@ -14,6 +14,11 @@ def home(request):
     html = t.render(Context({'name': name}))
     return HttpResponse(html)
 
+def about(request):
+    page = "About"
+    t = get_template('blogengine/about.html')
+    html = t.render(Context ({'About': page}))
+    return HttpResponse(html)
 
 class CategoryListView(ListView):
     def get_queryset(self):

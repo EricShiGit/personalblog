@@ -45,8 +45,16 @@ Footer
 /***
 Sticky Footer 
 ***/
-#footer {
-   position:absolute;
+#footerrelative{
+   position:relative;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background:#6cf;
+}
+
+#footerabsolute{
+    position:absolute;
    bottom:0;
    width:100%;
    height:30px;   /* Height of the footer */
@@ -812,3 +820,8 @@ ul#navigation .about a{
     background-image: url(../images/dryicons/about.png);
 }
 
+.centerabout {
+   width: 560px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  }

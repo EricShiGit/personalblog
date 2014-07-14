@@ -20,6 +20,7 @@
    <link rel="stylesheet" href="{% static 'css/code.css' %}">
    <link rel="stylesheet" href="{% static 'css/slush.css' %}">
    <script src = "{% static 'bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js' %}"></script>
+
 </head>
 
 <!--Top right-->
@@ -94,16 +95,16 @@
 
 {% block header %}
 <ul id="navigation">
- <li class="home"><a href=""><span>Home</span></a></li>
+ <li class="home"><a href="/"><span>Home</span></a></li>
  <li class="resume"><a href=""><span>Resume</span></a></li>
- <li class="blog"><a href=""><span>My Blog</span></a></li>
+ <li class="blog"><a href="/blog/"><span>My Blog</span></a></li>
  <li class="work"><a href=""><span>Work Term</span></a></li>
- <li class="about"><a href=""><span>About me</span></a></li>
+ <li class="about"><a href="/about/"><span>About me</span></a></li>
 </ul>
 <div class = "container">
    <header>
       <br><br>
-      <h1>Eric Shi's Blog<span>Mechatronics Engineering</span></h1>
+      <h1>Eric Shi<span>Mechatronics Engineering</span></h1>
    </header>
 </div>
 
@@ -114,18 +115,7 @@
 </div>
 </div>
 </div>
-<section class="color-1">
 
-<div id = "footer">
-<div class="container footer">
-         <div id="textbox">
-         <p class = "alignleft">Website built by Eric Shi, powered by Django. 2014 </p>
-         <p class = "alignright">Icons by DryIcons 2014.</p>
-         </div>
-         <div style="clear: both;"></div>
-</div></div>
-
-</section>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{% static 'bower_components/html5-boilerplate/js/vendor/jquery-1.10.2.min.js' %}"><\/script>')</script>
 <script src="{% static 'bower_components/html5-boilerplate/js/plugins.js' %}"></script>

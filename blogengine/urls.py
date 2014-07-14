@@ -5,7 +5,12 @@ from blogengine.views import CategoryListView, TagListView, PostsFeed
 
 urlpatterns = patterns('',
 
+    #Home Page
     url('^$','blogengine.views.home'),
+
+    #About
+
+    url('^about/$', 'blogengine.views.about'),
 
     # Index
     url(r'^blog/(?P<page>\d+)?/?$', ListView.as_view(
