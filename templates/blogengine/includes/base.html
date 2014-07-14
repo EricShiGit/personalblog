@@ -93,6 +93,13 @@
 
 
 {% block header %}
+<ul id="navigation">
+ <li class="home"><a href=""><span>Home</span></a></li>
+ <li class="resume"><a href=""><span>Resume</span></a></li>
+ <li class="blog"><a href=""><span>My Blog</span></a></li>
+ <li class="work"><a href=""><span>Work Term</span></a></li>
+ <li class="about"><a href=""><span>About me</span></a></li>
+</ul>
 <div class = "container">
    <header>
       <br><br>
@@ -107,13 +114,18 @@
 </div>
 </div>
 </div>
+<section class="color-1">
+
+<div id = "footer">
 <div class="container footer">
-   <div class="row">
-      <div class="span12">
-         <p>Copyright &copy; {% now "Y" %}</p>
-      </div>
-   </div>
-</div>
+         <div id="textbox">
+         <p class = "alignleft">Website built by Eric Shi, powered by Django. 2014 </p>
+         <p class = "alignright">Icons by DryIcons 2014.</p>
+         </div>
+         <div style="clear: both;"></div>
+</div></div>
+
+</section>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{% static 'bower_components/html5-boilerplate/js/vendor/jquery-1.10.2.min.js' %}"><\/script>')</script>
 <script src="{% static 'bower_components/html5-boilerplate/js/plugins.js' %}"></script>
@@ -149,4 +161,25 @@ type="text/javascript">
 
    });
 </script>
+<script>$(function() {
+    var d=300;
+    $('#navigation a').each(function(){
+        $(this).stop().animate({
+            'marginTop':'-80px'
+        },d+=150);
+    });
+ 
+    $('#navigation > li').hover(
+    function () {
+        $('a',$(this)).stop().animate({
+            'marginTop':'-2px'
+        },200);
+    },
+    function () {
+        $('a',$(this)).stop().animate({
+            'marginTop':'-80px'
+        },200);
+    }
+);
+});</script>
 </html>

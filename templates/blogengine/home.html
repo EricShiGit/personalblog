@@ -22,6 +22,7 @@
    <script src = "{% static 'bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js' %}"></script>
 </head>
 
+
 <!--Top right-->
 <div id="feedback" class="hidden-phone">
    <span class="feedbk-btn-close">&nbsp;</span>
@@ -93,8 +94,16 @@
 
 
 {% block header %}
+<ul id="navigation">
+ <li class="home"><a href=""><span>Home</span></a></li>
+ <li class="resume"><a href=""><span>Resume</span></a></li>
+ <li class="blog"><a href=""><span>My Blog</span></a></li>
+ <li class="work"><a href=""><span>Work Term</span></a></li>
+ <li class="about"><a href=""><span>About me</span></a></li>
+</ul>
 <div class = "container">
    <header>
+
       <br><br>
       <h1>Eric Shi<span>Mechatronics Engineering</span></h1>
       <p>Second Year Engineering Student at the University of Waterloo</p>
@@ -188,7 +197,7 @@
             <img src="{% static 'images/tire.png' %}" style= "width: 100%;max-height: 100%" />
             <div class="mask">
                <h2>Programmer Analyst</h2>
-               <p>Developed a carrier performance rating system using C# .NET 4, SQL, ASP. Enhanced existing guard house reporting application with new safety metrics.</p>
+               <p>Developed a carrier performance rating system using C# .NET 4, SQL, and ASP. Enhanced existing guard house reporting application with new safety metrics. Test-driven development using NUnit.</p>
                <a href="#" class="info">Read More</a>
             </div>
          </div>
@@ -216,11 +225,15 @@
     {% block content %}{% endblock %}
 </div>
 </div>
-<section class="color-3">
+<section class="color-1">
 <div class="container footer">
    <div class="row">
       <div class="span12">
-         <p></p>
+         <div id="textbox">
+         <p class = "alignleft">Website built by Eric Shi, powered by Django. 2014 </p>
+         <p class = "alignright">Icons by DryIcons 2014.</p>
+         </div>
+         <div style="clear: both;"></div>
       </div>
    </div>
 </div>
@@ -237,7 +250,8 @@
 <script
 src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 type="text/javascript">
-</script><script>
+</script>
+<script>
    $(function() {
 
        $('#circle').circlemouse({
@@ -260,4 +274,25 @@ type="text/javascript">
 
    });
 </script>
+<script>$(function() {
+    var d=300;
+    $('#navigation a').each(function(){
+        $(this).stop().animate({
+            'marginTop':'-80px'
+        },d+=150);
+    });
+ 
+    $('#navigation > li').hover(
+    function () {
+        $('a',$(this)).stop().animate({
+            'marginTop':'-2px'
+        },200);
+    },
+    function () {
+        $('a',$(this)).stop().animate({
+            'marginTop':'-80px'
+        },200);
+    }
+);
+});</script>
 </html>

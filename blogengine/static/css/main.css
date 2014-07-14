@@ -8,16 +8,49 @@ div.codehilite pre {
 	font-weight:300;
 }
 
+.footernotes {
+    font-size:13px;
+    color:#fdfbf2;
+    font-weight:300;
+}
 .blogtitle {
 	font-size:25px;
 	color:#800000;
 	font-weight:300;
 }
 
+/***
+For same line text alignment left / right
+Footer
+***/
+.alignleft {
+    float: left;
+     font-size:13px;
+    color:#fdfbf2;
+    font-weight:300;
+}
+.alignright {
+    float: right;
+     font-size:13px;
+    color:#fdfbf2;
+    font-weight:300;
+}
+
 .blogtitle:after {
    content: "";
     clear: both;
     display: block;;
+}
+
+/***
+Sticky Footer 
+***/
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background:#6cf;
 }
 
 .page-background
@@ -617,11 +650,10 @@ Co-op
 }
 .view p {
    font-family: Georgia, serif;
-   font-style: italic;
-   font-size: 12px;
+   font-size: 11px;
    position: relative;
    color: #fff;
-   padding: 0px 5px 5px;
+   padding: 0px 19px 2px;
    text-align: center;
 }
 .view a.info {
@@ -715,3 +747,68 @@ header1 span {
 	color:rgb(189, 54, 47);
 	font-weight:300;
  }
+
+ ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    list-style: none;
+    z-index:999999;
+    width:721px;
+}
+ul#navigation li {
+    width: 103px;
+    display:inline;
+    float:left;    
+}
+ul#navigation li a {
+    display: block;
+    float:left;
+    margin-top: -2px;
+    width: 100px;
+    background-color:#E7F2F9;
+    background-repeat:no-repeat;
+    background-position:50% 10px;
+    border:1px solid #BDDCEF;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+    text-decoration:none;
+    text-align:center;
+    padding-top:80px;
+    opacity: 0.7;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);  
+}
+ul#navigation li a:hover{
+     background-color:#CAE3F2;
+}
+ul#navigation li a span{
+    letter-spacing:2px;
+    font-size:11px;
+    color:#60ACD8;
+    text-shadow: 0 -1px 1px #fff;      
+}
+
+ul#navigation .home a{
+    background-image: url(../images/dryicons/home4.png);
+}
+
+ul#navigation .resume a{
+    background-image: url(../images/dryicons/resume.png);
+}
+
+ul#navigation .blog a{
+    background-image: url(../images/dryicons/blog.png);
+}
+
+ul#navigation .work a{
+    background-image: url(../images/dryicons/work.png);
+}
+
+ul#navigation .about a{
+    background-image: url(../images/dryicons/about.png);
+}
+
