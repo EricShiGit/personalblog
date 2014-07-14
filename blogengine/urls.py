@@ -9,8 +9,10 @@ urlpatterns = patterns('',
     url('^$','blogengine.views.home'),
 
     #About
-
     url('^about/$', 'blogengine.views.about'),
+
+    #Work Term
+    url('^work/$', 'blogengine.views.work'),
 
     # Index
     url(r'^blog/(?P<page>\d+)?/?$', ListView.as_view(

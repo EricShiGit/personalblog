@@ -20,6 +20,12 @@ def about(request):
     html = t.render(Context ({'About': page}))
     return HttpResponse(html)
 
+def work(request):
+    page = "Work"
+    t = get_template('blogengine/work.html')
+    html = t.render(Context ( {'About' : page}))
+    return HttpResponse(html)
+
 class CategoryListView(ListView):
     def get_queryset(self):
         slug = self.kwargs['slug']

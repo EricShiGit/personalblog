@@ -8,6 +8,20 @@ div.codehilite pre {
 	font-weight:300;
 }
 
+.blogtitlefont {
+  color: #8C2318;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 0 29px 0;
+    font-weight: normal;
+}
+
+.blogdatefont{
+    font-size 12px;
+    font-style: italic;
+}
+
 .footernotes {
     font-size:13px;
     color:#fdfbf2;
@@ -825,3 +839,90 @@ ul#navigation .about a{
   margin-left: auto ;
   margin-right: auto ;
   }
+
+
+  /*  Content
+    ------------------  */
+        
+#content1 {
+    float: left;
+    width: 604px;
+    margin: 0 20px 40px 0;
+}
+
+#content1 header {
+    padding: 4px 0 0 0;
+    margin:  0 0 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+#content1 header h2 {
+
+   padding: 15px 20px;
+   font-size: 30px;
+   font-weight: normal; 
+}
+
+.content1-pane {
+    padding: 4px 0 0 0;
+    margin:  0 0 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.content1-footer {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px solid #9A9A9A; 
+}
+
+#content1 article {
+    margin: 0 0 20px 0;
+    padding: 20px 20px 0 20px;
+}
+
+#content1 article h2 {
+    font-size: 30px;
+    margin: 0 0 29px 0;
+    font-weight: normal;
+}
+
+#content1 p {
+    margin: 0 0 24px 0;
+}
+
+#content1 ul,
+#content1 ol {
+    margin:  0;
+    padding: 0 22px 20px 22px;
+}
+
+#content1 .postinfo {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 20px 0;
+    border-top: 1px solid #ccc;
+} 
+
+#content1 .postinfo li {
+    float: left;
+    font-style: italic;
+    color: #a2a2a2;
+}
+
+#content1 .postinfo li + li:before,
+#content1 .postinfo li + li:before {
+    content: " ~ ";
+    margin: 0 10px;
+}
+
+
+#containermain {
+    width: 916px;
+    margin: 0 auto;
+    padding: 48px 22px 0 22px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5dc;
+}
