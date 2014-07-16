@@ -1,7 +1,9 @@
 from django.db import models
+import datetime
 from django.contrib.auth.models import User
 from django.contrib.sites.models import Site
 from django.utils.text import slugify
+from managers import PostManager
 
 # Create your models here.
 class Category(models.Model):
@@ -41,13 +43,14 @@ class Tag(models.Model):
         
 class Post(models.Model):
     title = models.CharField(max_length=200)
-    pub_date = models.DateTimeField()
+    pub_date = models.DateTimeField('pub_date', default=datetime.datetime.now)
     text = models.TextField()
     slug = models.SlugField(max_length=40, unique=True)
     author = models.ForeignKey(User)
     site = models.ForeignKey(Site)
     category = models.ForeignKey(Category, blank=True, null=True)
     tags = models.ManyToManyField(Tag, blank=True, null=True)
+    objects = PostManager()
 
     def get_absolute_url(self):
         return "/blog/%s/%s/%s/" % (self.pub_date.year, self.pub_date.month, self.slug)

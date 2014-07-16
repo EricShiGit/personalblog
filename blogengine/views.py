@@ -26,6 +26,12 @@ def work(request):
     html = t.render(Context ( {'About' : page}))
     return HttpResponse(html)
 
+def category_list(request):
+    return list_details.object_list(
+        request,
+        queryset = Category.objects.all(),
+    )
+
 class CategoryListView(ListView):
     def get_queryset(self):
         slug = self.kwargs['slug']
