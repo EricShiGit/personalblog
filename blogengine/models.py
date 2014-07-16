@@ -43,7 +43,7 @@ class Tag(models.Model):
         
 class Post(models.Model):
     title = models.CharField(max_length=200)
-    pub_date = models.DateTimeField('pub_date', default=datetime.datetime.now)
+    pub_date = models.DateTimeField()
     text = models.TextField()
     slug = models.SlugField(max_length=40, unique=True)
     author = models.ForeignKey(User)

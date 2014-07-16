@@ -1,18 +1,19 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import *
 from django.views.generic import ListView, DetailView
 from blogengine.models import Post, Category, Tag
 from blogengine.views import CategoryListView, TagListView, PostsFeed
 
+
 urlpatterns = patterns('',
 
     #Home Page
-    url('^$','blogengine.views.home'),
+    url(r'^$','blogengine.views.home'),
 
     #About
-    url('^about/$', 'blogengine.views.about'),
+    url(r'^about/$', 'blogengine.views.about'),
 
     #Work Term
-    url('^work/$', 'blogengine.views.work'),
+    url(r'^work/$', 'blogengine.views.work'),
 
     # Index
     url(r'^blog/(?P<page>\d+)?/?$', ListView.as_view(
@@ -36,7 +37,11 @@ urlpatterns = patterns('',
         paginate_by=5,
         model=Tag,
         )),
-    
+
 	# Post RSS feed
 	url(r'^blog/feeds/posts/$', PostsFeed()),
+
+    # Archive view
+    url(r'^blog/archive/$', 'blogengine.views.events_index', name='events_index'),
+
 )
