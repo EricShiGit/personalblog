@@ -1,6 +1,8 @@
 from django import template
 from blogengine.models import Category, Post
 import re
+import calendar, datetime
+from django.template import Context
 
 register = template.Library()
 
@@ -49,3 +51,36 @@ def get_recent_posts(parser, token):
         raise template.TemplateSyntaxError, "%s tag had invalid arguments" % tag_name
     limit, var_name = m.groups()
     return RecentPosts(limit, var_name)
+
+class DefineNode(template.Node):
+    def __init__(self, name):
+        self.name = name
+
+    def render(self, context):
+
+        posts = Post.objects.filter().order_by('-pub_date')
+     
+        #create a dict with the years and months:events 
+        event_dict = {}
+        for i in range(posts[0].pub_date.year, posts[len(posts)-1].pub_date.year-1, -1):
+            event_dict[i] = {}
+            for month in range(1,13):
+                event_dict[i][month] = []
+        for event in posts:
+            event_dict[event.pub_date.year][event.pub_date.month].append(event)
+     
+        #this is necessary for the years to be sorted
+        event_sorted_keys = list(reversed(sorted(event_dict.keys())))
+        list_events = []
+        for key in event_sorted_keys:
+            adict = {key:event_dict[key]}
+            list_events.append(adict)
+        context['test'] = list_events
+        return ''
+
+
+@register.tag
+def get_archive(parser, token):
+    return DefineNode("test")
+  
+

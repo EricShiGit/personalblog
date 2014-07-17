@@ -1,7 +1,13 @@
 {% extends "blogengine/includes/base.html" %}
 {% load custom_markdown %}
 {% load blog %}
+
 {% block content %}
+<head>
+     {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'javascript/main.css' %}"/>
+    <script type="text/javascript" src="{% static 'javascript/jquery.min.js' %}"></script>
+</head>
 
 {% if object_list %} 
 
@@ -68,7 +74,7 @@
                         <nav class="cl-effect-6">
                     {% for c in categories %}
                   
-                        <li><a href="/blog/category/{{c.slug}}/">{{ c.name }}</a></li>
+                        <li><a style="text-decoration:none;"href="/blog/category/{{c.slug}}/">{{ c.name }}</a></li>
                 
                     {% endfor %}
                         </nav>
@@ -83,19 +89,141 @@
                      <nav class="cl-effect-6">
               {% for p in recent_posts %}
        
-                  <li><a href="{{ p.get_absolute_url }}" title="View this post">{{ p.title }}</a></li>
+                  <li><a href="{{ p.get_absolute_url }}" style="text-decoration:none;" title="View this post">{{ p.title }}</a></li>
            
               {% endfor %}
                    </nav>
               </ul>
           </p>
- 
-    </section>
+
+          {% get_archive %}
+   <h3>Archives-arino</h3>
+
+   <aside class="accordion">
+             {% for event_year in test %}
+              <h1>{{event_year.keys.0}}</h1>
+                   <div>
+        
+            {% for month, events in event_year.values.0.items %}
+                <!--show only months with events! -->
+                {% if events %} 
+                    <h2>{{month}}</h2>
+                        <div>
+            <br>
+                        {% for event in events %}
+                               <nav class="cl-effect-66">
+                            <li><a class="archivefont" style="text-decoration:none;" href="{{event.get_absolute_url }}">{{event.title}} {{event.pub_date}}</a></li>
+                          </nav>
+                        {% endfor %}
+                      </div>
+                       
+                    </li>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </div>
+  
+      {% endfor %}
+    </aside>
+
+  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+ <aside class="accordion">
+  <h1>News</h1>
+  <div>
+    <h2>News Item #1</h2>
+    <div>
+      <a>1</a><br>
+      <a>1</a><br>
+      <a>1</a>
+      
+    </div>
+    
+    <h2>News Item #2</h2>
+    <div>
+      <a>1</a><br>
+      <a>1</a><br>
+      <a>1</a>
+    </div>
+    <h2>News Item #3</h2>
+    <div>
+      <a>1</a><br>
+      <a>1</a><br>
+      <a>1</a>
+    </div>
+  </div>
+  
+  
+  
+    </div>
+  </div>
+</aside>
+    </div>
+
+    <script>
+      $( function() {
+        /*
+        - how to call the plugin:
+        $( selector ).cbpNTAccordion( [options] );
+        - destroy:
+        $( selector ).cbpNTAccordion( 'destroy' );
+        */
+
+        $( '#cbp-ntaccordion' ).cbpNTAccordion();
+
+      } );
+    </script>
 </aside>
 </div>
 </div>
 
 </section>
 
+<script>
+    // toggle month
+    var toggleMonth = function(month) {
+        $(month).children('.events').slideToggle('slow');
+        $(month).find('.month-data div.collapsed').toggle();
+        $(month).find('.month-data div.expanded').toggle(); 
+    }
+
+    // expand the current month
+    toggleMonth($('#{{now.year}}-{{now.month}}'));
+    
+    // intercept click to toggle month
+    $('.month-data').click(function() {
+        var month = $(this).parent();
+        toggleMonth(month);
+    });
+</script>
+
+<script>
+var headers = ["H1","H2","H3","H4","H5","H6"];
+
+$(".accordion").click(function(e) {
+  var target = e.target,
+      name = target.nodeName.toUpperCase();
+  
+  if($.inArray(name,headers) > -1) {
+    var subItem = $(target).next();
+    
+    //slideUp all elements (except target) at current depth or greater
+    var depth = $(subItem).parents().length;
+    var allAtDepth = $(".accordion p, .accordion div").filter(function() {
+      if($(this).parents().length >= depth && this !== subItem.get(0)) {
+        return true; 
+      }
+    });
+    $(allAtDepth).slideUp("fast");
+    
+    //slideToggle target content and adjust bottom border if necessary
+    subItem.slideToggle("fast",function() {
+        $(".accordion :visible:last").css("border-radius","0 0 10px 10px");
+    });
+    $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+  }
+});
+</script>
 
 {% endblock %}
