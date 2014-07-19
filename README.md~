@@ -21,17 +21,3 @@ cd Python-2.7.5
 ./configure
 make
 sudo make install
-
-Install pip
-sudo apt-get install python-pip
-
-Install virtualenv
-sudo pip install virtualenv
-
-Go to the project root folder and run
-sudo pip install virtualenv
-To install dependencies. 
-
-Please note pg_config for postGRE will fail, I'm using SQLite locally and I have postGRE on my hosting server. 
-
-Work in progress. 

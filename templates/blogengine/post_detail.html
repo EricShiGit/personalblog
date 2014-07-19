@@ -1,31 +1,42 @@
 {% extends "blogengine/includes/base.html" %}
+{% load custom_markdown %}
+{% load blog %}
+{% block content %}
+<head>
+   {% load staticfiles %}
+   <link rel="stylesheet" type="text/css" href="{% static 'javascript/main.css' %}"/>
+   <script type="text/javascript" src="{% static 'javascript/jquery.min.js' %}"></script>
+</head>
+<section class="color-5">
+<div class = "container">
+     <br>
+     <div id = "content1">
+            <div class="content1-pane">
+                <article>
 
-    {% load custom_markdown %}
+   <h1>{{ object.title }}</h1>
+   <h3>{{ object.pub_date }}</h3>
+   {{ object.text|custom_markdown }}
 
-    {% block content %}
-        <div class="post col-md-12">
-        <h1>{{ object.title }}</h1>
-        <h3>{{ object.pub_date }}</h3>
-        {{ object.text|custom_markdown }}
-        </div>
-        {% if object.category %}
-        <div class="col-md-12">
-        <a href="{{ object.category.get_absolute_url }}"><span class="label label-primary">{{ object.category.name }}</span></a>
-        </div>
-        {% endif %}
-        {% if object.tags %}
-        <div class="col-md-12">
-        {% for tag in object.tags.all %}
-        <a href="{{ tag.get_absolute_url }}"><span class="label label-success">{{ tag.name }}</span></a>
-        {% endfor %}
-        </div>
-        {% endif %}
+{% if object.category %}
+<div class="col-md-12">
+   <a href="{{ object.category.get_absolute_url }}"><span class="label label-primary">{{ object.category.name }}</span></a>
+</div>
+{% endif %}
+{% if object.tags %}
+<div class="col-md-12">
+   {% for tag in object.tags.all %}
+   <a href="{{ tag.get_absolute_url }}"><span class="label label-success">{{ tag.name }}</span></a>
+   {% endfor %}
+</div>
+{% endif %}
 
-        <div class="col-md-12">
-        <h4>Comments</h4>
-        <div class="fb-comments" data-href="http://{{ object.site }}{{ object.get_absolute_url }}" data-width="470" data-num-posts="10"></div>
-        </div>
-        </div>
+   <h4>Comments</h4>
+   <div class="fb-comments" data-href="http://{{ object.site }}{{ object.get_absolute_url }}" data-width="470" data-num-posts="10"></div>
 
-
-    {% endblock %}
+</article>
+</div>
+</div>
+</div>
+</section>
+{% endblock %}
