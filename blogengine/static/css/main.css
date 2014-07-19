@@ -2365,7 +2365,11 @@ nav a:focus {
     font-style: normal;
 }
 
-
+/***
+====================
+Home page recent post CSS
+====================
+***/
 .ca-menus{
     padding:0;
     margin:20px auto;
@@ -2401,7 +2405,7 @@ nav a:focus {
 }
 .ca-icons{
     font-family: 'WebSymbolsRegular', cursive;
-    font-size: 60px;
+    font-size: 30px;
     color: #333;
     text-shadow: 0px 0px 1px #333;
     line-height: 150px;
@@ -2425,7 +2429,7 @@ nav a:focus {
     top: 50%;
 }
 .ca-mains{
-    font-size: 30px;
+    font-size: 20px;
     opacity: 0.8;
     text-align: center;
     -webkit-transition: all 200ms linear;
@@ -2447,7 +2451,7 @@ nav a:focus {
     transition: all 200ms linear;
 }
 .ca-menus li:hover{
-    background-color: #000;
+    background-color: #afeeee;
 }
 .ca-menus li:hover .ca-icon{
     color: #fff;
