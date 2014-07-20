@@ -9,90 +9,85 @@
 </head>
 <section class="color-5">
 <div class = "container">
-     <br>
-     <div id = "content1">
-            <div class="content1-pane">
-                <article>
-
-   <h1>{{ object.title }}</h1>
-   <h3>{{ object.pub_date }}</h3>
-   {{ object.text|custom_markdown }}
-
-{% if object.category %}
-<div class="col-md-12">
-   <a href="{{ object.category.get_absolute_url }}"><span class="label label-primary">{{ object.category.name }}</span></a>
-</div>
-{% endif %}
-{% if object.tags %}
-
-   {% for tag in object.tags.all %}
-   <a href="{{ tag.get_absolute_url }}"><span class="label label-success">{{ tag.name }}</span></a>
-   {% endfor %}
-{% endif %}
-
-{% load disqus_tags %}
-{% disqus_show_comments %}
-</article>
-</div>
-</div>
-<aside id="sidebar">
-      <section id="about">
-         <h3>About</h3>
-         <p>Welcome to my blog. My main interets are in the domain of programming, computers, weightlifting, and eSports. I will be sharing pieces of code and technology that I find interesting or useful. If there are any errors in any of the information or in a tutorial please send me an email. I am always interested in feedback, suggestions, and conversation.</p>
-      </section>
-      <section id="categories">
-         <h3>Categories</h3>
-         <p>
-         <ul>
-            {% get_blog_categories as categories %}
-            <nav class="cl-effect-6">
-               {% for c in categories %}
-               <li><a style="text-decoration:none;"href="/blog/category/{{c.slug}}/">{{ c.name }}</a></li>
-               {% endfor %}
-            </nav>
-         </ul>
-         </p>
-         <ul>
-         </ul>
-         <h3>Recent Posts</h3>
-         <p>
-         <ul>
-            {% get_recent_posts 5 as recent_posts %}
-            <nav class="cl-effect-6">
-               {% for p in recent_posts %}
-               <li><a href="{{ p.get_absolute_url }}" style="text-decoration:none;" title="View this post">{{ p.title }}</a></li>
-               {% endfor %}
-            </nav>
-         </ul>
-         </p>
-         {% get_archive %}
-         <h3>Archives-arino</h3>
-         <aside class="accordion">
-            {% for event_year in test %}
-            <h1>{{event_year.keys.0}}</h1>
+   <br>
+   <div id = "content1">
+      <div class="content1-pane">
+         <article>
+            <h1>{{ object.title }}</h1>
+            <h3>{{ object.pub_date }}</h3>
+            {{ object.text|custom_markdown }}
+            {% if object.category %}
+            <div class="col-md-12">
+               <a href="{{ object.category.get_absolute_url }}"><span class="label label-primary">{{ object.category.name }}</span></a>
+            </div>
+            {% endif %}
+            {% if object.tags %}
+            {% for tag in object.tags.all %}
+            <a href="{{ tag.get_absolute_url }}"><span class="label label-success">{{ tag.name }}</span></a>
+            {% endfor %}
+            {% endif %}
+            {% load disqus_tags %}
+            {% disqus_show_comments %}
+         </article>
+      </div>
+   </div>
+   <aside id="sidebar">
+   <section id="about">
+      <h3>About</h3>
+      <p>Welcome to my blog. My main interets are in the domain of programming, computers, weightlifting, and eSports. I will be sharing pieces of code and technology that I find interesting or useful. If there are any errors in any of the information or in a tutorial please send me an email. I am always interested in feedback, suggestions, and conversation.</p>
+   </section>
+   <section id="categories">
+      <h3>Categories</h3>
+      <p>
+      <ul>
+         {% get_blog_categories as categories %}
+         <nav class="cl-effect-6">
+            {% for c in categories %}
+            <li><a style="text-decoration:none;"href="/blog/category/{{c.slug}}/">{{ c.name }}</a></li>
+            {% endfor %}
+         </nav>
+      </ul>
+      </p>
+      <ul>
+      </ul>
+      <h3>Recent Posts</h3>
+      <p>
+      <ul>
+         {% get_recent_posts 5 as recent_posts %}
+         <nav class="cl-effect-6">
+            {% for p in recent_posts %}
+            <li><a href="{{ p.get_absolute_url }}" style="text-decoration:none;" title="View this post">{{ p.title }}</a></li>
+            {% endfor %}
+         </nav>
+      </ul>
+      </p>
+      {% get_archive %}
+      <h3>Archives-arino</h3>
+      <aside class="accordion">
+         {% for event_year in test %}
+         <h1>{{event_year.keys.0}}</h1>
+         <div>
+            {% for month, events in event_year.values.0.items %}
+            <!--show only months with events! -->
+            {% if events %} 
+            <h2>{{month}}</h2>
             <div>
-               {% for month, events in event_year.values.0.items %}
-               <!--show only months with events! -->
-               {% if events %} 
-               <h2>{{month}}</h2>
-               <div>
-                  <br>
-                  {% for event in events %}
-                  <nav class="cl-effect-66">
-                     <li><a class="archivefont" style="text-decoration:none;" href="{{event.get_absolute_url }}">{{event.title}} {{event.pub_date}}</a></li>
-                  </nav>
-                  {% endfor %}
-               </div>
-               </li>
-               {% endif %}
-               </li>
+               <br>
+               {% for event in events %}
+               <nav class="cl-effect-66">
+                  <li><a class="archivefont" style="text-decoration:none;" href="{{event.get_absolute_url }}">{{event.title}} {{event.pub_date}}</a></li>
+               </nav>
                {% endfor %}
             </div>
+            </li>
+            {% endif %}
+            </li>
             {% endfor %}
-         </aside>
-         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-         <aside class="accordion">
-         
+         </div>
+         {% endfor %}
+      </aside>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+      <aside class="accordion">
 </div>
 </div>
 </aside>
