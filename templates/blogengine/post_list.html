@@ -2,7 +2,6 @@
 {% load custom_markdown %}
 {% load blog %}
 {% block content %}
-     {% load disqus_tags %}
 <head>
    {% load staticfiles %}
    <link rel="stylesheet" type="text/css" href="{% static 'javascript/main.css' %}"/>
@@ -35,10 +34,7 @@
             {% endfor %}
             {% endif %}
          </article>
-         <a href="{{ post.get_absolute_url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">View Comments</a>
-         {% disqus_num_replies %}
       </div>
-
       {% endfor %}
       {% else %}
       <p>Whoops seems like no post have been found, I most likely lost my data if you are seeing this. Good thing we always back up data right ! Please let me know if you see this message. </p>
@@ -108,10 +104,13 @@
             {% endfor %}
          </aside>
          <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-      
+           {% load disqus_tags %}
 
-             {% disqus_recent_comments ericshiblog 5 50 0 24 %} 
-             {% load disqus_tags %}
+           <h3>Recent Discussion</h3>
+             {% disqus_recent_comments shortname 5 50 0 24 %} 
+
+             {% disqus_num_replies %}
+
 </div>
 <script>
    $( function() {

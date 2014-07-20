@@ -2,6 +2,7 @@
 {% load custom_markdown %}
 {% load blog %}
 {% block content %}
+        {% load disqus_tags %}
 <head>
    {% load staticfiles %}
    <link rel="stylesheet" type="text/css" href="{% static 'javascript/main.css' %}"/>
@@ -13,6 +14,7 @@
    <div id = "content1">
       <div class="content1-pane">
          <article>
+      
             <h1>{{ object.title }}</h1>
             <h3>{{ object.pub_date }}</h3>
             {{ object.text|custom_markdown }}
@@ -26,7 +28,7 @@
             <a href="{{ tag.get_absolute_url }}"><span class="label label-success">{{ tag.name }}</span></a>
             {% endfor %}
             {% endif %}
-            {% load disqus_tags %}
+       
             {% disqus_show_comments %}
          </article>
       </div>
@@ -85,6 +87,8 @@
             {% endfor %}
          </div>
          {% endfor %}
+
+      
       </aside>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
       <aside class="accordion">
@@ -93,6 +97,8 @@
 </aside>
 </div>
 </section>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
 <script>
    // toggle month
    var toggleMonth = function(month) {
