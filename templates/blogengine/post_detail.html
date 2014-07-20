@@ -24,16 +24,14 @@
 </div>
 {% endif %}
 {% if object.tags %}
-<div class="col-md-12">
+
    {% for tag in object.tags.all %}
    <a href="{{ tag.get_absolute_url }}"><span class="label label-success">{{ tag.name }}</span></a>
    {% endfor %}
-</div>
 {% endif %}
 
-   <h4>Comments</h4>
-   <div class="fb-comments" data-href="http://{{ object.site }}{{ object.get_absolute_url }}" data-width="470" data-num-posts="10"></div>
-
+{% load disqus_tags %}
+{% disqus_show_comments %}
 </article>
 </div>
 </div>
@@ -94,30 +92,54 @@
          </aside>
          <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
          <aside class="accordion">
-            <h1>News</h1>
-            <div>
-               <h2>News Item #1</h2>
-               <div>
-                  <a>1</a><br>
-                  <a>1</a><br>
-                  <a>1</a>
-               </div>
-               <h2>News Item #2</h2>
-               <div>
-                  <a>1</a><br>
-                  <a>1</a><br>
-                  <a>1</a>
-               </div>
-               <h2>News Item #3</h2>
-               <div>
-                  <a>1</a><br>
-                  <a>1</a><br>
-                  <a>1</a>
-               </div>
-            </div>
+         
 </div>
 </div>
 </aside>
 </div>
 </section>
+<script>
+   // toggle month
+   var toggleMonth = function(month) {
+       $(month).children('.events').slideToggle('slow');
+       $(month).find('.month-data div.collapsed').toggle();
+       $(month).find('.month-data div.expanded').toggle(); 
+   }
+   
+   // expand the current month
+   toggleMonth($('#{{now.year}}-{{now.month}}'));
+   
+   // intercept click to toggle month
+   $('.month-data').click(function() {
+       var month = $(this).parent();
+       toggleMonth(month);
+   });
+</script>
+<script>
+   var headers = ["H1","H2","H3","H4","H5","H6"];
+   
+   $(".accordion").click(function(e) {
+     var target = e.target,
+         name = target.nodeName.toUpperCase();
+     
+     if($.inArray(name,headers) > -1) {
+       var subItem = $(target).next();
+       
+       //slideUp all elements (except target) at current depth or greater
+       var depth = $(subItem).parents().length;
+       var allAtDepth = $(".accordion p, .accordion div").filter(function() {
+         if($(this).parents().length >= depth && this !== subItem.get(0)) {
+           return true; 
+         }
+       });
+       $(allAtDepth).slideUp("fast");
+       
+       //slideToggle target content and adjust bottom border if necessary
+       subItem.slideToggle("fast",function() {
+           $(".accordion :visible:last").css("border-radius","0 0 10px 10px");
+       });
+       $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+     }
+   });
+</script>
 {% endblock %}

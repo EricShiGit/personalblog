@@ -41,8 +41,12 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.flatpages',
     'django.contrib.syndication',
+    'django.contrib.comments',
+    'disqus',
 )
 
+DISQUS_API_KEY = 'Yyf6oulJOoLrIz3T4guhsL6up2DBzRopIXgsH2piNpHphZWrGnFivK4n1YTxW49R'
+DISQUS_WEBSITE_SHORTNAME = 'ericshiblog'
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
