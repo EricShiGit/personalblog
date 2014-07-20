@@ -50,6 +50,7 @@ class Post(models.Model):
     site = models.ForeignKey(Site)
     category = models.ForeignKey(Category, blank=True, null=True)
     tags = models.ManyToManyField(Tag, blank=True, null=True)
+    teaser = models.TextField(blank=True, null=True)
     objects = PostManager()
 
     def get_absolute_url(self):
