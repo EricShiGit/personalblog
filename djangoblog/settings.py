@@ -48,7 +48,7 @@ INSTALLED_APPS = (
 
 DISQUS_API_KEY = 'Yyf6oulJOoLrIz3T4guhsL6up2DBzRopIXgsH2piNpHphZWrGnFivK4n1YTxW49R'
 DISQUS_WEBSITE_SHORTNAME = 'ericshiblog'
-
+INTERNAL_IPS = "http://127.0.0.1:8000/"
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -56,12 +56,14 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 ROOT_URLCONF = 'djangoblog.urls'
 
 WSGI_APPLICATION = 'djangoblog.wsgi.application'
 
+DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
