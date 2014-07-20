@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.syndication',
     'django.contrib.comments',
     'disqus',
+    'debug_toolbar'
 )
 
 DISQUS_API_KEY = 'Yyf6oulJOoLrIz3T4guhsL6up2DBzRopIXgsH2piNpHphZWrGnFivK4n1YTxW49R'
