@@ -43,12 +43,14 @@ INSTALLED_APPS = (
     'django.contrib.syndication',
     'django.contrib.comments',
     'disqus',
-    'debug_toolbar'
+    'debug_toolbar',
 )
+
+
 
 DISQUS_API_KEY = 'Yyf6oulJOoLrIz3T4guhsL6up2DBzRopIXgsH2piNpHphZWrGnFivK4n1YTxW49R'
 DISQUS_WEBSITE_SHORTNAME = 'ericshiblog'
-INTERNAL_IPS = "http://127.0.0.1:8000/","www.ericshi.ca"
+INTERNAL_IPS = ('127.0.0.1',)
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
