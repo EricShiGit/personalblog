@@ -15,6 +15,12 @@ urlpatterns = patterns('',
     #Work Term
     url(r'^work/$', 'blogengine.views.work'),
 
+    #Projects 
+    url(r'^projects/$', 'blogengine.views.projects'),
+
+    #Contact me
+    url(r'^contact/$', 'blogengine.views.contact'),
+
     # Index
     url(r'^blog/(?P<page>\d+)?/?$', ListView.as_view(
         model=Post,

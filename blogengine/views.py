@@ -25,7 +25,19 @@ def about(request):
 def work(request):
     page = "Work"
     t = get_template('blogengine/work.html')
-    html = t.render(Context ( {'About' : page}))
+    html = t.render(Context ( {'Work' : page}))
+    return HttpResponse(html)
+
+def projects(request):
+    page = "Project"
+    t = get_template('blogengine/projects.html')
+    html = t.render(Context ( {'Project' : page}))
+    return HttpResponse(html)
+
+def contact(request):
+    page = "contact"
+    t = get_template('blogengine/contact.html')
+    html = t.render(Context ( {'contact' : page}))
     return HttpResponse(html)
 
 def category_list(request):
