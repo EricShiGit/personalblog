@@ -1,1 +1,85 @@
 {% extends "blogengine/includes/base.html" %}
+{% load custom_markdown %}
+{% block content %}
+
+<section class = "color-5">
+   <br>
+</section>
+<section class="color-8">
+   <div class = "centerabout">
+      <br>
+      <h2 class = "about-ericlarge">Projects:</h2>
+      <p class = "about-eric">Hello welcome to my project page. I will be sharing both software and hardware engineering projects on this page. 
+      </p>
+   </div>
+   <div class = "bottomline">
+      <section class = "color-7">
+         <br>
+      </section>
+   </div>
+   <div class = "aboutbody">
+      <div class = "aboutcolfirst">
+         <h4>Team Projects</h4>
+         <p style="font-weight: 900">Autonomous Digital Micrometre</p>
+         <p class = "tab">&bull;  Automated and interfaced using an Arduino </p>
+          <p class = "tab">&bull; Gained machining experience using a Buffalo table top drill press and an engine lathe</p>
+          <p class = "tab">&bull; 2X decoding using Photoelectric sensors, worked with limit sensors, and 7-Segment LED Displays </p>
+         <p class = "tab">&bull; Measures linear objects accurateley to a Micron (equal to 0.00l mm, or about 0.000039 inch)</p>
+         <p>See it in action : <a href="http://www.youtube.com/watch?v=q3af61lxj-I">Video</a></p>
+             <p style="font-weight: 900">UWRobitics Sumobot Tournament</p>
+                <p class = "tab">&bull; Worked with custom board based around Ateml’s ATMega168 AVR microprocessor (Arduino compatible) </p>
+                <p class = "tab">&bull; Soldered various eletrical components</p>
+                 <p class = "tab">&bull;  Designed, modeled, and machined a chassis using sheet metal </p>
+                  <p class = "tab">&bull; Wired motors, line sensors, and calibrated infrared sensors</p>
+                        <p class = "tab">&bull; Programmed robot to alternate between defend, search, destroy, and survive</p>
+                                <p class = "tab">&bull; Placed 4th out of 20 teams</p>
+                                         <p>See it in action : <a href="http://www.youtube.com/watch?v=PTXJF5mCKV8">Video</a></p>
+      </div>	
+      <div class = "aboutcol">
+         <h4>Team Projects</h4>
+         <p style="font-weight: 900">Maze Solving Robot - Lego Mind-storms</p>
+         <p class = "tab">&bull; Robot solves any arbitrary square maze, recognizes when solution is found and draws the shortest path to exit. </p>
+         <p class = "tab">&bull; Implemented recursive depth-first search algorithm with a stack data structure for displacement vectors</p>
+  
+         <p style="font-weight: 900">Floating Arm Trebuchet</p>
+         <p class = "tab">&bull; Designed, modelled, and machined a wooden 1.00 m by 0.40 mx floating arm trebuchet with a 86m firing range. Designed and machininghined key components such as sling pouch, trigger and safety mechanism, adjustable release time mechanism, and the main arm.</p>
+         <p class = "tab">&bull; Implemented several algorithms in Python for self study.</p>
+         <p style="font-weight: 900">Hydrogen Fuel Cell Car</p>
+         <p class = "tab">&bull; Integrated chemistry course concepts to assemble and modify a hydrogen fuel cell cars. </p>
+               <p class = "tab">&bull; Drafted three technical reports in regards to improvements, safety, and efficientcy</p>
+               <p style="font-weight: 900">Personal Website and Blog</p>
+         <p class = "tab">&bull; Created personal website using Python, HTML, and Javascript. Wrote blog engine using Django. </p>
+      </div>
+      <div class = "aboutcol">
+         <h4>Projects</h4>
+         <p style="font-weight: 900">Engine Dissection</p>
+         <p class = "tab">&bull; Disassembled and re-assembled a two stroke engine and tested efficiency of engine</p>
+               <p class = "tab">&bull; Free hand sketched engine components and drafted technical reports</p>
+         <p style="font-weight: 900">Traffic Signal Simulation</p>
+         <p class = "tab">&bull; Designed ladder logic and created state diagram for the system</p>
+            <p class = "tab">&bull; Created simulation in PicsPro</p>
+            <p style="font-weight: 900">Mini Railway Bridge Design</p>
+         <p class = "tab">&bull; Minimized structure cost while meeting functional requirement using programming and matrix calculations</p>
+         <p style="font-weight: 900">Bridge Design Contest</p>
+         <p class = "tab">&bull; Designed and built a balsa wood bridge that supported a load to weight ratio of 400</p>
+         <p style="font-weight: 900">PLC Control System</p>
+         <p class = "tab">&bull; Programmed a PLC system to control a pneumatic arm <a href = "https://www.youtube.com/watch?v=D7yXhvT75dc&list=UU0YyRvCSGqGzUxoCfsDdNEQ">Video</a></p>
+             <p style="font-weight: 900">Mass Spring Damping System</p>
+         <p class = "tab">&bull; Performed differential analysis on mass spring damping systems and drafted technical report</p>
+      </div>
+   </div>
+</section>
+<section class = "color-1">
+   <div class = "filler">
+      <ul class="tt-wrapperabout">
+         <br><br><br>
+         <br><br><br>
+         <li><a class="tt-gplus" href="#"><span>Google Plus</span></a></li>
+         <li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
+         <li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
+         <li><a class="tt-linkedin" href="#"><span>LinkedIn</span></a></li>
+      </ul>
+   </div>
+</section>
+<hr>
+{% endblock %}
