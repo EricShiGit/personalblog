@@ -1,3 +1,30 @@
+div.bode {
+
+
+}
+
+
+.col-group > div {
+  padding: 1em;
+  margin-bottom: 1em;  
+}
+
+@media screen and (min-width: 44em) {
+  .col-group {
+    overflow: hidden;
+  }
+  .col-group > div {
+    float: left;
+    width: 50%;
+  }
+}
+
+.col-head > div {
+    padding: 1em;
+    margin-bottom: 1 em;
+    width: 90%;
+}
+
 div.codehilite pre {
     background-color: #002b36;
 }
@@ -6,6 +33,18 @@ div.codehilite pre {
 	font-size:15px;
 	color:#323232;
 	font-weight:300;
+}
+
+.workfont {
+    font-size:22px;
+    color:#470f52;
+    font-weight:300;
+}
+
+.worktitle{
+    font-size:33px;
+    color:#223264;
+    font-weight:1000;
 }
 
 .about-ericlarge {
@@ -117,11 +156,11 @@ Sticky Footer
 }
 .ca-menu{
     padding:0;
-
-    width: 500px;
+    padding-left:10%;
+    width: 100%;
 }
 .ca-menu li{
-    width: 500px;
+    width: 80%;
     height: 100px;
      background-size: cover;
  display: block;
@@ -963,6 +1002,10 @@ ul#navigation .work a{
 
 ul#navigation .about a{
     background-image: url(../images/dryicons/about.png);
+}
+
+ul#navigation .workterm a{
+    background-image: url(../icons/globe.png);
 }
 
 .centerabout {

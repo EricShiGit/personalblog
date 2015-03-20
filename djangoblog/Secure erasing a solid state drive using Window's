@@ -1,0 +1,111 @@
+Secure erasing a solid state drive using Window's DiskPart can degrade a solid state drive. While it will get the job done, most modern solid state drives have built in secure erase. 
+
+In Windows, you can enter DiskPart using the CLI. 
+
+```ruby
+Diskpart
+list disk
+select disk {disknumber}
+online disk
+clean 
+clean all
+```
+
+This is a good method of erasing a regular hard drive but can be damaging to a solid state drive. However secure erasing a SSD can be done easily in Linux. If you do not have Linux installed you can use a Linux BootCD that has the HDParm utility. I am using Ubuntu 14.04 on a ThinkPad T420. 
+
+To find out what your SSD's name is you can navigate to the /dev/ directory and look for names starting with sd for example my SSD was sda1. Once you know the name of your SSD you can continue. 
+
+The first step is to make use the SSD is not in a frozen state. Open a Linux terminal and run:
+
+```ruby
+sudo hdparm -I /dev/{name of SSD}
+```
+
+In the output you will most like see that your SSD is frozen. You can also see here if enhanced erase is supported. 
+
+Security: 
+	Master password revision code = 65534
+		supported
+	not	enabled
+	not	locked
+		frozen
+	not	expired: security count
+		supported: enhanced erase
+
+Most guides will tell you you need to disconnect the SSD by removing the SATA cable from the motherboard. As a laptop user, this can be tedious. However if you simply close your laptop until it goes to sleep and reopen it and rerun the hdparm command, you should usee.
+
+```ruby
+sudo hdparm -I /dev/{name of SSD}
+
+	not	enabled
+	not	locked
+	not	frozen
+	not	expired: security count
+  
+```
+Once your drive is not frozen you can begin the secure erase process. First you need to enable security by setting a user password. If you restart after setting the password, the drive will be locked until the secure erase process is complete or the drive is unlocked with the password. To set the password run the following command in terminal:
+
+```ruby
+sudo hdparm –user-master u –security-set-pass {password} /dev/{name of SSD}
+```
+
+Output:
+
+```ruby
+security_password = {password}
+/sda/{name of SSD}:
+Issuing SECURITY_SET_PASS command, password=”{password}”, user=user, mode=high
+```
+
+Verify using Hdparm:
+
+```ruby
+sudo hdparm -I /dev/{name of SSD}
+```
+
+You should see:
+
+```ruby
+Security: 
+       Master password revision code = 65534
+                 supported
+                 enabled
+       not     locked
+       not     frozen
+       not     expired: security count
+               supported: enhanced erase
+       Security level high
+```
+
+Finally after much preparation we can execute ! Ensure that security was enabled or the ATA secure erase command will fail. Remember to wait until the command finishes. On a large SSD, this command could take a while. 
+
+<h3>ATA Secure Erase Command</h3>
+
+```ruby
+sudo time hdparm –user-master u –security-erase {password} /dev/{name of SSD}
+```
+
+Terminal Output:
+
+```ruby
+security_password=”{password}”
+
+/dev/{name of SSD} 
+Issuing SECURITY_ERASE command, password={password}”, user = user
+{Time stamp}
+```
+If there are no errors then your drive is now erased the right way. This is one of the safest ways to erase a SSD without degrading performance. Note that while this will erase things such as operating systems and files, it is not a deep clean and most files will be recoverable using appropriate methods. Security should be turned off automatically after secure erase. Verify using:
+
+```ruby
+sudo hdparm -I /dev/{name of SSD}
+Security: 
+       Master password revision code = 65534
+                 supported
+       not     enabled
+       not     locked
+       not     frozen
+       not     expired: security count
+               supported: enhanced erase
+       Security level high
+```
+

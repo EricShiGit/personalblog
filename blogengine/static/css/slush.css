@@ -10,6 +10,12 @@
 	font-style: normal;
 }
 
+.container > div{
+	width:90%;
+
+}
+
+
 .container > header,
 .codrops-top {
 	font-family: 'Lato', Arial, sans-serif;

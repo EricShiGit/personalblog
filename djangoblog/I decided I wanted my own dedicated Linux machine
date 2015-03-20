@@ -1,0 +1,21 @@
+ I decided I wanted my own dedicated Linux machine instead of using a virtual server. I wanted to share my experience with installing Ubuntu on a Solid State Drive on my ThinkPad T420. If you are looking to install Ubuntu on your personal laptop, this post might be useful as a quick start / basic outline.
+
+After looking and asking around, I decided the distro I would use would be Ubuntu. I briefly reviewed Unity vs Gnome as the user interface and went with Unity as the searching functionality seemed better. 
+
+The .iso for Ubuntu can be obtained here 
+http://www.ubuntu.com/download/desktop
+
+As part of my laptop upgrade project, I removed the optical day and opted for two hard drives. I went with a 120GB Crucial M500 2.5-Inch solid state drive. Now if you are a ThinkPad user like me, you will need to get yourself a 12.7mm Serial ATA Hard Drive Bay Adapter. They cost around $40 for the Leenovo made ones but you can find them for $10 - $20 that fit the ThinkPad. 
+
+I personally used a USB for my boot drive but if I were to do it again, I would recommend a CD because I had issues with corrupt installation files. To burn the .iso onto the USB, I used an Universal USB Installer from www.pendrivelinux.com.
+
+After you get your .iso burned on your USB/DVD restart and your computer and boot to it. The boot menu should appear if the .iso was burned correctly. You can verify if the disk/USB has issues from the boot menu.
+
+Once verification is complete select the install Ubuntu option. Select your language. The installer will check if you have an internet connection, a power source, and at least 6.0GB of hard drive space.
+
+Continue the installation until you get to the select a drive page. I had a 120 GB SSD, I decided I wanted to allocate 4GB of this to SWAP because I have 8GB of physical RAM. Swap space is when your physical RAM is full and the system needs more memory resources. The operating system will move inactive pages in memory to the swap space. If you ever want to hiberate your laptop it is recommended to allocate swap space. 
+
+I partitioned 116GB as EXT4, selected reformat, and set the boot location to “/”. This was a personal Linux installation so I was not concerned with allocating different partitions for user /home or having a /opt partition. After allocating your paritions you can begin installation.
+
+Now I ran into a bunch of problems during instalation, my installer would crash at copying files or early in downloading files. I could not isolate the issue in the stack trace so I re-downloaded, and re-imaged the USB and wiped the existing parition with the corrupt installation. The installation went smoothly from there. 
+

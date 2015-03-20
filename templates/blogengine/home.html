@@ -35,8 +35,8 @@
             <div id="feedback" class="hidden-phone">
                <span class="feedbk-btn-close">&nbsp;</span>
                <div class="feedbk-cont">
-                  <h5 class = "about-eric">It would be great to hear from you.</h5>
-                  <h4 class = "about-eric">Select a category:</h4>
+               <br><br>
+                  <h4 class = "about-eric"><p class = "workfont">Please Select a Message Subject:</p></h4>
                   <div class="tabbable">
                      <ul class="nav nav-pills span">
                         <li><a href="#feedbk_questions" data-toggle="tab" class ="about-eric">
@@ -44,7 +44,7 @@
                            </a>
                         </li>
                         <li><a href="#feedbk_ideas" data-toggle="tab" class ="about-eric">
-                           <span class="uit-icon icon-lightbulb"></span>Share an idea
+                           <span class="uit-icon icon-lightbulb"></span>Typo
                            </a>
                         </li>
                         <li><a href="#feedbk_bugs" data-toggle="tab" class ="about-eric">
@@ -80,7 +80,7 @@
                   <div style="clear:both;"></div>
                   <a class="btn btn-success disabled" id="feedbk_send_btn" href="mailto:ericshi2009@gmail.com?Subject=Contact Eric"><span class="uit-icon icon-envelope"></span>&nbsp;&nbsp;Send Email</a>
                   <a id="feedbk_clr_btn" class="btn btn-danger" href="javascript:void(0)">
-                  <i class="fa fa-trash-o fa-lg"></i> Clear all input</a>
+                  <i class="fa fa-trash-o fa-lg"></i> Clear All</a>
                   <div style="clear:both;"></div>
                </div>
                <div style="clear:both;"></div>
@@ -98,150 +98,97 @@
                    fjs.parentNode.insertBefore(js, fjs);
                }(document, 'script', 'facebook-jssdk'));
             </script>
-            {% block header %}
-            <ul id="navigation">
-           <li class="home"><a href="/"><span>Home</span></a></li>
-               <li class="about"><a href="/about/"><span>About me</span></a></li>
-               <li class="resume"><a href=""><span>Resume</span></a></li>
-               <li class="blog"><a href="/blog/"><span>My Blog</span></a></li>
-               <li class="work"><a href="/projects/"><span>Projects</span></a></li>
-              <li class="work"><a href="/work/"><span>Work Term</span></a></li></ul>
+
+{% block header %}
+   <ul id="navigation">
+      <li class="home"><a href="/"><span>Home</span></a></li>
+      <li class="about"><a href="/about/"><span>About me</span></a></li>
+      <li class="resume"><a href="/static/resume.pdf"><span>Resume</span></a></li>
+      <li class="blog"><a href="/blog/"><span>My Blog</span></a></li>
+      <li class="work"><a href="/projects/"><span>Projects</span></a></li>
+      <li class="workterm"><a href="/work/"><span>Work Term</span></a></li>
+   </ul>
 
             <div class = "container">
                <header>
                   <br><br>
                   <h1>Eric Shi<span>Mechatronics Engineering</span></h1>
-                  <p>Second Year Engineering Student at the University of Waterloo</p>
+                  <p>Second Year Student at the University of Waterloo</p>
                </header>
             </div>
             <!-- Colours that are good10,8,7 ,5,1-->
-            <section class="color-5">
-               <div class="container">
-                  <div class="page-header">
-                     <div class="row">
-                        <div class="col-md-6">
-                           <br><br>
-                           <ul class="ca-menu">
-                                <li>
-                                 <a href="/about/">
-                                    <span class="ca-icon">U</span>
-                                    <div class="ca-content">
-                                       <h2 class="ca-main">Technical Summary</h2>
-                                       <h3 class="ca-sub">About me</h3>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="/blog/">
-                                    <span class="ca-icon">Q</span>
-                                    <div class="ca-content">
-                                       <h2 class="ca-main">Blog</h2>
-                                       <h3 class="ca-sub">Programming, eSports, and Computers</h3>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="/projects/">
-                                    <span class="ca-icon">F</span>
-                                    <div class="ca-content">
-                                       <h2 class="ca-main">Projects</h2>
-                                       <h3 class="ca-sub">Courseware, work, and personal</h3>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="#">
-                                    <span class="ca-icon">a</span>
-                                    <div class="ca-content">
-                                       <h2 class="ca-main">Resume</h2>
-                                       <h3 class="ca-sub">Looking for Winter 2014 Co-op</h3>
-                                    </div>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="/contact/">
-                                    <span class="ca-icon">@</span>
-                                    <div class="ca-content">
-                                       <h2 class="ca-main">Contact Information</h2>
-                                       <h3 class="ca-sub">Feedback, questions, and opportunities</h3>
-                                    </div>
-                                 </a>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="col-md-6">
-<div id="content">
-   <div>
-      <br>
-                              <ul class="tt-wrapper">
-                         
-                                 <li>
-                                    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-                                 </li>
-                                 <li><a class="tt-gplus" href="https://plus.google.com/100066589846054409710/about"><span>Google Plus</span></a></li>
-                                 <li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
-                                 <li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
-                                 <li><a class="tt-linkedin" href="http://www.linkedin.com/profile/view?id=245214768&trk=nav_responsive_tab_profile"><span>LinkedIn</span></a></li>
-                              </ul>
-                           </div>
-   <div class="title"></div>
-   <div class="wrapper">
-      <div id="images" class="images">
-         <img id="image_about" src="{% static 'images/eric.png' %}" alt="" width="402" height="402" style="display:block;width: 400px;
- height: 400px;
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 200px;
- -moz-border-radius: 200px;"/>
-         <img id="image_portfolio" src="{% static 'images/eng.jpg' %}" alt="" width="402" height="402" style="display:block;width: 402px;
- height: 402px;
- background-size: cover;
- display: block;
- border-radius: 101px;
- -webkit-border-radius: 201px;
- -moz-border-radius: 201px;"/>
-         <img id="image_contact" src="{% static 'images/eric.png' %}" alt="" width="402" height="402" style="display:block;width: 402px;
- height: 402px;
- background-size: cover;
- display: block;
- border-radius: 101px;
- -webkit-border-radius: 201px;
- -moz-border-radius: 201px;"/>
-      </div>
-      <div class="circleBig">
-         <div id="menu" class="menu">
-            <a id="about" class="about" href="/about/">About me</a>
-            <a id="portfolio" class="portfolio" href="">Portfolio</a>
-            <a id="contact" class="contact" href=""></a>
-         </div>
-      </div>
-   </div>
-   <div id="circle_about" class="circle">
-      <div class="description">
-         <ul>
-            <li><a href="/about/">Who I am</a></li>
-            <li><a href="/resume/">Resume</a></li>
-            <li><a href="/blog/">Blog</a></li>
-         </ul>
-      </div>
-   </div>
-   <div id="circle_portfolio" class="circle">
-      <div class="description">
-        <ul>
-              <li><a href="#">Projects</a></li>
-            <li><a href="#">Community Initiatives</a></li>
-         </ul>
-      </div>
-   </div>
- 
-
-</div>   
-                        </div>
-                     </div>
+<section class="color-5">
+   <div class="col-group">
+      <div>
+         <br><br>
+         <ul class="ca-menu">
+            <li>
+               <a href="/about/">
+                  <span class="ca-icon">U</span>
+                  <div class="ca-content">
+                     <h2 class="ca-main">Technical Summary</h2>
+                     <h3 class="ca-sub">About me</h3>
                   </div>
-               </div>
-            </section>
+               </a>
+            </li>
+            <li>
+               <a href="/blog/">
+                  <span class="ca-icon">Q</span>
+                  <div class="ca-content">
+                     <h2 class="ca-main">Blog</h2>
+                     <h3 class="ca-sub">Programming, eSports, and Computers</h3>
+                  </div>
+               </a>
+            </li>
+            <li>
+               <a href="/projects/">
+                  <span class="ca-icon">F</span>
+                  <div class="ca-content">
+                     <h2 class="ca-main">Projects</h2>
+                     <h3 class="ca-sub">Courseware, work, and personal</h3>
+                  </div>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <span class="ca-icon">a</span>
+                  <div class="ca-content">
+                     <h2 class="ca-main">Resume</h2>
+                     <h3 class="ca-sub">Looking for Winter 2014 Co-op</h3>
+                  </div>
+               </a>
+            </li>
+              <li>
+               <a href="/contact/">
+                  <span class="ca-icon">@</span>
+                  <div class="ca-content">
+                     <h2 class="ca-main">Contact Information</h2>
+                     <h3 class="ca-sub">Feedback, questions, and opportunities</h3>
+                  </div>
+               </a>
+            </li>
+         </ul>
+      </div>
+
+   <div>
+   
+         <div>
+            <br>
+            <ul class="tt-wrapper">
+               <li>
+                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+               </li>
+               <li><a class="tt-gplus" href="https://plus.google.com/100066589846054409710/about"><span>Google Plus</span></a></li>
+               <li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
+               <li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
+               <li><a class="tt-linkedin" href="http://www.linkedin.com/profile/view?id=245214768&trk=nav_responsive_tab_profile"><span>LinkedIn</span></a></li>
+            </ul>
+         </div>
+         
+         
+      </div>
+   </div>
+</section>
             <section class="color-8">
                <div class = "container">
                   <header>
@@ -254,23 +201,23 @@
                         <div class="mask">
                            <h2>Programmer Analyst</h2>
                            <p>Developed a carrier performance rating system using C# .NET 4, SQL, and ASP. Enhanced existing guard house reporting application with new safety metrics. Test-driven development using NUnit.</p>
-                           <a href="#" class="info">Read More</a>
+                           <a href="/work/" class="info">Read More</a>
                         </div>
                      </div>
                      <div class="view view-fifth">
                         <img src="{% static 'images/Term1.png' %}" style= "width: 100%;max-height: 100%" />
                         <div class="mask">
                            <h2>Technology Architect</h2>
-                           <p></p>
-                           <a href="#" class="info">Read More</a>
+                           <p>Designed a RESTful interface for voice mail and call forwarding with Ericsson. Wrote an order simulation web application and provided training.</p>
+                           <a href="/work/" class="info">Read More</a>
                         </div>
                      </div>
                      <div class="view view-fifth">
                         <img src="{% static 'images/term2.png' %}" style= "width: 100%;max-height: 100%" />
                         <div class="mask">
                            <h2>Technology Architect</h2>
-                           <p></p>
-                           <a href="#" class="info">Read More</a>
+                           <p>Worked on introducing cloud storage and security as voice features. Implemented fix for long term CDMA migration issue estimated to save over $20,000.    </p>
+                           <a href="/work/" class="info">Read More</a>
                         </div>
                      </div>
                   </div>

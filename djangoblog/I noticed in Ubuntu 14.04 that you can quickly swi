@@ -1,0 +1,13 @@
+I noticed in Ubuntu 14.04 that you can quickly switch between recursive search and type-ahead find on the Unity UI. As someone who is still learning the ropes of grep, I find the UI search to be useful at times.
+
+Recursive Search (Searches current folder and all sub-directories)
+
+```ruby
+gsettings set org.gnome.nautilus.preferences enable-interactive-search false
+```
+Type-ahead Find
+Selects a name or directory without searching in the sub-directories
+
+```ruby
+gsettings set org.gnome.nautilus.preferences enable-interactive-search true
+```
