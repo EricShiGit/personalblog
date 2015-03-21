@@ -40,6 +40,12 @@ def contact(request):
     html = t.render(Context ( {'contact' : page}))
     return HttpResponse(html)
 
+def portfolio(request):
+    page = "portfolio"
+    t = get_template('blogengine/portfolio.html')
+    html = t.render(Context ( {'portfolio' : page}))
+    return HttpResponse(html)
+
 def category_list(request):
     return list_details.object_list(
         request,
