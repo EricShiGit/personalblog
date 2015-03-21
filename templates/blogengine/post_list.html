@@ -1,6 +1,16 @@
 {% extends "blogengine/includes/base.html" %}
 {% load custom_markdown %}
 {% load blog %}
+
+{% block headercontent %}
+   <meta charset="utf-8">
+   <title>Eric Shi - Mechatronics Engineer.ing - University of Waterloo - Blog</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="author" content="Eric Shi">
+   <meta name="description" content="Eric Shi Mechatronics Engineering University of Waterloo Blog. Educational robotic tutorials, programming guides, building computers, and other general topics.">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+{% endblock %}
+
 {% block content %}
 <head>
    {% load staticfiles %}
