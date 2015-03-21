@@ -100,139 +100,167 @@
             </script>
 
 {% block header %}
-   <ul id="navigation">
-      <li class="home"><a href="/"><span>Home</span></a></li>
-      <li class="about"><a href="/about/"><span>About me</span></a></li>
-      <li class="resume"><a href="/static/resume.pdf"><span>Resume</span></a></li>
-      <li class="blog"><a href="/blog/"><span>My Blog</span></a></li>
-      <li class="work"><a href="/projects/"><span>Projects</span></a></li>
-      <li class="workterm"><a href="/work/"><span>Work Term</span></a></li>
-   </ul>
-
-            <div class = "container">
-               <header>
-                  <br><br>
-                  <h1>Eric Shi<span>Mechatronics Engineering</span></h1>
-                  <p>Second Year Student at the University of Waterloo</p>
-               </header>
-            </div>
-            <!-- Colours that are good10,8,7 ,5,1-->
-<section class="color-5">
-   <div class="col-group">
-      <div>
-         <br><br>
-         <ul class="ca-menu">
-            <li>
-               <a href="/about/">
-                  <span class="ca-icon">U</span>
-                  <div class="ca-content">
-                     <h2 class="ca-main">Technical Summary</h2>
-                     <h3 class="ca-sub">About me</h3>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="/blog/">
-                  <span class="ca-icon">Q</span>
-                  <div class="ca-content">
-                     <h2 class="ca-main">Blog</h2>
-                     <h3 class="ca-sub">Programming, eSports, and Computers</h3>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="/projects/">
-                  <span class="ca-icon">F</span>
-                  <div class="ca-content">
-                     <h2 class="ca-main">Projects</h2>
-                     <h3 class="ca-sub">Courseware, work, and personal</h3>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#">
-                  <span class="ca-icon">a</span>
-                  <div class="ca-content">
-                     <h2 class="ca-main">Resume</h2>
-                     <h3 class="ca-sub">Looking for Winter 2014 Co-op</h3>
-                  </div>
-               </a>
-            </li>
-              <li>
-               <a href="/contact/">
-                  <span class="ca-icon">@</span>
-                  <div class="ca-content">
-                     <h2 class="ca-main">Contact Information</h2>
-                     <h3 class="ca-sub">Feedback, questions, and opportunities</h3>
-                  </div>
-               </a>
-            </li>
-         </ul>
-      </div>
-
-   <div>
-   
-         <div>
-            <br>
-            <ul class="tt-wrapper">
-               <li>
-                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-               </li>
-               <li><a class="tt-gplus" href="https://plus.google.com/100066589846054409710/about"><span>Google Plus</span></a></li>
-               <li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
-               <li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
-               <li><a class="tt-linkedin" href="http://www.linkedin.com/profile/view?id=245214768&trk=nav_responsive_tab_profile"><span>LinkedIn</span></a></li>
-            </ul>
-         </div>
-         
-         
-      </div>
-   </div>
-</section>
-            <section class="color-8">
-               <div class = "container">
-                  <header>
-                     <br><br>
-                     <h1>Work Experience</h1>
-                  </header>
-                  <div class = "centerfl">
-                     <div class="view view-fifth">
-                        <img src="{% static 'images/tire.png' %}" style= "width: 100%;max-height: 100%" />
-                        <div class="mask">
-                           <h2>Programmer Analyst</h2>
-                           <p>Developed a carrier performance rating system using C# .NET 4, SQL, and ASP. Enhanced existing guard house reporting application with new safety metrics. Test-driven development using NUnit.</p>
-                           <a href="/work/" class="info">Read More</a>
-                        </div>
-                     </div>
-                     <div class="view view-fifth">
-                        <img src="{% static 'images/Term1.png' %}" style= "width: 100%;max-height: 100%" />
-                        <div class="mask">
-                           <h2>Technology Architect</h2>
-                           <p>Designed a RESTful interface for voice mail and call forwarding with Ericsson. Wrote an order simulation web application and provided training.</p>
-                           <a href="/work/" class="info">Read More</a>
-                        </div>
-                     </div>
-                     <div class="view view-fifth">
-                        <img src="{% static 'images/term2.png' %}" style= "width: 100%;max-height: 100%" />
-                        <div class="mask">
-                           <h2>Technology Architect</h2>
-                           <p>Worked on introducing cloud storage and security as voice features. Implemented fix for long term CDMA migration issue estimated to save over $20,000.    </p>
-                           <a href="/work/" class="info">Read More</a>
-                        </div>
-                     </div>
-                  </div>
+  <ul id="navigation">
+   <li class="home"><a href="/"><span>Home</span></a></li>
+   <li class="about"><a href="/about/"><span>About me</span></a></li>
+   <li class="resume"><a href="/static/resume.pdf"><span>Resume</span></a></li>
+   <li class="blog"><a href="/blog/"><span>My Blog</span></a></li>
+   <li class="work"><a href="/projects/"><span>Projects</span></a></li>
+   <li class="workterm"><a href="/work/"><span>Work Term</span></a></li>
+</ul>
+<div class = "container">
+   <header>
+      <br><br>
+      <h1>Eric Shi<span>Mechatronics Engineering</span></h1>
+      <p>Second Year Student at the University of Waterloo</p>
+   </header>
+</div>
+<!-- Colours that are good10,8,7 ,5,1-->
+<div class="col-group">
+   <div style = "background: #3366cc ">
+      <br>
+      <ul class="ca-menu">
+         <li>
+            <a href="/about/">
+               <span class="ca-icon">U</span>
+               <div class="ca-content">
+                  <h2 class="ca-main">About Me</h2>
                </div>
-               <br><br><br>
-            </section>
+            </a>
+         </li>
+         <li>
+            <a href="/blog/">
+               <span class="ca-icon">Q</span>
+               <div class="ca-content">
+                  <h2 class="ca-main">Blog</h2>
+                  <h3 class="ca-sub">Featuring Robotics Tutorials</h3>
+               </div>
+            </a>
+         </li>
+         <li>
+            <a href="/projects/">
+               <span class="ca-icon">F</span>
+               <div class="ca-content">
+                  <h2 class="ca-main">Projects</h2>
+                  <h3 class="ca-sub">More Robots !</h3>
+               </div>
+            </a>
+         </li>
+         <li>
+            <a href="#">
+               <span class="ca-icon">a</span>
+               <div class="ca-content">
+                  <h2 class="ca-main">Resume</h2>
+                  <h3 class="ca-sub"></h3>
+               </div>
+            </a>
+         </li>
+         <li>
+            <a href="/contact/">
+               <span class="ca-icon">@</span>
+               <div class="ca-content">
+                  <h2 class="ca-main">Contact</h2>
+                  <h3 class="ca-sub">Give me a shout</h3>
+               </div>
+            </a>
+         </li>
+      </ul>
+   </div>
+   <div style = "background: #3366cc }">
+      <br>
+      <img src="{% static 'images/Eric_PHex.jpg' %}" alt="Eric Shi" style="border: 10px solid #fff; display: block;
+         margin-left: auto;
+         margin-right: auto; max-width:100%;max-height:85%;">
+      <ul class="tt-wrapper">
+         <li>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+         </li>
+         <li><a class="tt-gplus" href="https://plus.google.com/100066589846054409710/about"><span>Google Plus</span></a></li>
+         <li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
+         <li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
+         <li><a class="tt-linkedin" href="http://www.linkedin.com/profile/view?id=245214768&trk=nav_responsive_tab_profile"><span>LinkedIn</span></a></li>
+      </ul>
+   </div>
+   <div style = "background: #cd4436 ">
+      <br>
+      <p class = "h1arial">Welcome to my website. I'm a third year engineering student at the University of Waterloo in Canada. I am studying Mechatonics (electro-mechanical) engineerng. I love programming and robotics. I have a blog where I have been writing product reviews and creating tutorials. My vision for my blog is to have it become an educational resource for students of all ages to learn and get ideas from my past projects. 
+      <p>
+      <p class = "h1arial"> I'm interested in network engineering, telecommunications, and IoT. My current on-going projects include hexapods, quadcopters, and robotic arms. </p>
+      <p class = "h1arial"> If you're interested in checking out my projects please visit my blog! I have provided detailed tutorials for how you can do a similar project yourself. </p>
+      <div class = "col-group">
+         <div>
+            <img src="{% static 'images/phex.jpg' %}" alt="Eric Shi" style="border: 5px solid #fff;max-width:100%;height:200px;">
+         </div>
+         <div>
+            <img src="http://www.robotshop.com/forum/download/file.php?id=5524" alt="Eric Shi" style="border: 5px solid #fff;max-width:100%;height:200px;">
+            <ul class="tt-wrapper">
+         </div>
+         <div>
+            <img src="{% static 'images/apod.jpg' %}" alt="Eric Shi" style="border: 5px solid #fff;max-width:100%;height:200px;">
+         </div>
+      </div>
+      <ul class="tt-wrapper">
+   </div>
+</div>
+<section class="color-8">
+ <div class = "container">
+   <header>
+      <br><br>
+      <h1>Work Experience</h1>
+   </header>
+</div>
+   <div class = "col-groupz">
+      
+      <div>
+         <div class="view view-fifth">
+            <img src="{% static 'images/tire.png' %}" style= "width: 100%;max-height: 100%" />
+            <div class="mask">
+               <h2>Programmer Analyst</h2>
+               <p>Developed a carrier performance rating system using C# .NET 4, SQL, and ASP. Enhanced existing guard house reporting application with new safety metrics. Test-driven development using NUnit.</p>
+               <a href="/work/" class="info">Read More</a>
+            </div>
+         </div>
+      </div>
+         <div>
+                  <div class="view view-fifth">
+
+            <img src="{% static 'images/Term1.png' %}" style= "width: 100%;max-height: 100%" />
+            <div class="mask">
+               <h2>Technology Architect</h2>
+               <p>Designed a RESTful interface for voice mail and call forwarding with Ericsson. Wrote an order simulation web application and provided training.</p>
+               <a href="/work/" class="info">Read More</a>
+            </div>
+            </div>
+         </div>
+         <div>
+                  <div class="view view-fifth">
+
+            <img src="{% static 'images/term2.png' %}" style= "width: 100%;max-height: 100%" />
+            <div class="mask">
+               <h2>Technology Architect</h2>
+               <p>Worked on introducing cloud storage and security as voice features. Implemented fix for long term CDMA migration issue estimated to save over $20,000.    </p>
+               <a href="/work/" class="info">Read More</a>
+            </div>
+            </div>
+         </div>
+   </div>
+   </div>
+   <br><br><br>
+
+</section>
+
             <section class="color-3">
                <div class = "container">
                   <header>
                      <br><br>
                      <h1 class ="latestblogpost">Latest Blog Posts</h1>
                   </header>
+                  </div>
+                 <div class = "col-groupbp">
                   <ul class="ca-menus">
                      {% get_recent_posts 5 as recent_posts %}
                      {% for p in recent_posts %}
+                     <div>
                      <li>
                         <!--p = triple dot navigation-->
                         <a href="{{ p.get_absolute_url }}">
@@ -243,11 +271,14 @@
                            </div>
                         </a>
                      </li>
+                     </div>
                      {%endfor %}
                   </ul>
                </div>
                <br>
                <br><br>
+                
+
             </section>
                   <section class="color-3">
               
@@ -262,8 +293,8 @@
                   <div class="row">
                      <div class="span12">
                         <div id="textbox">
-                           <p class = "alignleft">Website built by Eric Shi, powered by Django. 2014 </p>
-                           <p class = "alignright">Icons by DryIcons 2014.</p>
+                           <p class = "alignleft">Website built by Eric Shi Powered by Django 2015 </p>
+                           <p class = "alignright">Icons by DryIcons 2015</p>
                         </div>
                         <div style="clear: both;"></div>
                      </div>

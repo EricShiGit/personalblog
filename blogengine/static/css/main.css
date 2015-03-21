@@ -4,9 +4,120 @@ div.bode {
 }
 
 
+.h1arial {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+    color: #FFFFFF
+}
+.h3arial {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+.parial {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+.blockquotearial {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+.prearial {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+
+.col-groupbp > div {
+  padding: 1em;
+  margin-bottom: 1em; 
+
+}
+
+@media screen and (min-width: 44em) {
+  .col-groupbp {
+    overflow: hidden;
+  }
+  .col-groupbp > div {
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+
+  .col-thi > div {
+    float: left;
+    width: 30%;
+
+  }
+
+.col-ti > div {
+    float: left;
+    width: 20%;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.col-groupz > div {
+  padding: 1em;
+  margin-bottom: 1em; 
+
+}
+
+@media screen and (min-width: 44em) {
+  .col-groupz {
+    overflow: hidden;
+  }
+  .col-groupz > div {
+    float: left;
+    width: 25%;
+    height: 100%;
+  }
+
+  .col-thi > div {
+    float: left;
+    width: 30%;
+
+  }
+
+.col-ti > div {
+    float: left;
+    width: 20%;
+
+  }
+}
+
 .col-group > div {
   padding: 1em;
-  margin-bottom: 1em;  
+  margin-bottom: 1em; 
+
 }
 
 @media screen and (min-width: 44em) {
@@ -15,7 +126,20 @@ div.bode {
   }
   .col-group > div {
     float: left;
-    width: 50%;
+    width: 33.333333%;
+    height: 600px;
+  }
+
+  .col-thi > div {
+    float: left;
+    width: 30%;
+
+  }
+
+.col-ti > div {
+    float: left;
+    width: 20%;
+
   }
 }
 
@@ -144,6 +268,11 @@ Sticky Footer
 }
 
 
+.introfont > p {
+    font
+
+}
+
 @font-face {
     font-family: 'WebSymbolsRegular';
     src: url('websymbols/websymbols-regular-webfont.eot');
@@ -155,18 +284,18 @@ Sticky Footer
     font-style: normal;
 }
 .ca-menu{
-    padding:0;
-    padding-left:10%;
+    padding-left:2%;
     width: 100%;
+    height: 100%;
 }
 .ca-menu li{
-    width: 80%;
-    height: 100px;
-     background-size: cover;
- display: block;
- border-radius: 0px;
- -webkit-border-radius: 45px;
- -moz-border-radius: 45px;
+    width: 100%;
+    height: 18%;
+    background-size: cover;
+    display: block;
+    border-radius: 1px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 45px;
     overflow: hidden;
     position: relative;
     display: block;
@@ -182,7 +311,7 @@ Sticky Footer
     transition: all 300ms linear;
 }
 .ca-menu li:last-child{
-    margin-bottom: 0px;
+    margin-bottom: 2%;
 }
 .ca-menu li a{
     text-align: left;
@@ -198,7 +327,7 @@ Sticky Footer
     text-shadow: 0px 0px 1px #333;
     line-height: 90px;
     position: absolute;
-    width: 90px;
+    width: 20%;
     left: 20px;
     text-align: center;
     -webkit-transition: all 300ms linear;
@@ -209,14 +338,13 @@ Sticky Footer
 }
 .ca-content{
     position: absolute;
-    left: 120px;
-    width: 370px;
-    height: 60px;
-    top: 20px;
+    left: 25%;
+    width: 100%;
+    height: 100%;
+    top: 25%;
 }
 .ca-main{
-    font-size: 30px;
-
+    font-size: 2em;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -224,7 +352,7 @@ Sticky Footer
     transition: all 300ms linear;
 }
 .ca-sub{
-    font-size: 18px;
+    font-size: 1.5em;
     color: #8968cd;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
@@ -464,7 +592,7 @@ Social Media Icons
 ***/
 .tt-wrapper{
     padding: 0;
-    width: 435px;
+    width: 100%;
     height: 0px;
     margin: 0px auto 0px auto;
 }
@@ -803,8 +931,8 @@ Co-op
 ***/
 
 .view {
-   width: 300px;
-   height: 210px;
+   width: 90%;
+   height: 90%;
    margin: 10px;
    float: left;
    border: 10px solid #fff;
@@ -818,8 +946,8 @@ Co-op
    background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
 .view .mask,.view .content {
-   width: 300px;
-   height: 210px;
+   width: 100%;
+   height: 100%;
    position: absolute;
    overflow: hidden;
    top: 0;
@@ -873,11 +1001,11 @@ Co-op
 }
 .view-fifth .mask {
    background-color: rgba(146,96,91,0.3);
-   -webkit-transform: translateX(-300px);
-   -moz-transform: translateX(-300px);
-   -o-transform: translateX(-300px);
-   -ms-transform: translateX(-300px);
-   transform: translateX(-300px);
+   -webkit-transform: translateX(-100%  );
+   -moz-transform: translateX(-100%);
+   -o-transform: translateX(-100%);
+   -ms-transform: translateX(-100%);
+   transform: translateX(-100%);
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
@@ -2602,13 +2730,16 @@ Home page recent post CSS
 ====================
 ***/
 .ca-menus{
-    padding:0;
-    margin:20px auto;
-    width: 1020px;
+
+    
+    width: 100%;
 }
 .ca-menus li{
-    width: 200px;
-    height: 300px;
+    width: 19.4%;
+    height: 400px;
+    border-style: inset;
+    border-width: 5px;
+
     overflow: hidden;
     position: relative;
     float:left;
