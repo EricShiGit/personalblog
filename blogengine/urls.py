@@ -10,19 +10,22 @@ urlpatterns = patterns('',
     url(r'^$','blogengine.views.home'),
 
     #About
-    url(r'^about/$', 'blogengine.views.about'),
+    url(r'^(?i)about/$', 'blogengine.views.about'),
 
     #Work Term
-    url(r'^work/$', 'blogengine.views.work'),
+    url(r'^(?i)work/$', 'blogengine.views.work'),
 
     #Projects 
-    url(r'^projects/$', 'blogengine.views.projects'),
+    url(r'^(?i)projects/$', 'blogengine.views.projects'),
 
     #Contact me
-    url(r'^contact/$', 'blogengine.views.contact'),
+    url(r'^(?i)contact/$', 'blogengine.views.contact'),
 
     #Portfolio
-    url(r'^portfolio/$', 'blogengine.views.portfolio'),
+    url(r'^(?i)portfolio/$', 'blogengine.views.portfolio'),
+
+    #Weef 
+    url(r'^(?i)weef$', 'blogengine.views.weef'),
 
 
     # Index

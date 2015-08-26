@@ -46,11 +46,19 @@ def portfolio(request):
     html = t.render(Context ( {'portfolio' : page}))
     return HttpResponse(html)
 
+def weef(request):
+    page = "weef"
+    t = get_template('blogengine/weef.html')
+    html = t.render(Context ( {'weef' : page}))
+    return HttpResponse(html)
+
 def category_list(request):
     return list_details.object_list(
         request,
         queryset = Category.objects.all(),
     )
+
+
 
 def events_index(request):
     '''a basic events listing view'''

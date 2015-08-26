@@ -1,0 +1,84 @@
+	{% extends "blogengine/includes/base.html" %}
+	{% load custom_markdown %}
+
+{% block headercontent %}
+   <meta charset="utf-8">
+   <title>Eric Shi - Mechatronics Engineering - University of Waterloo - WEEF</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="author" content="Eric Shi">
+   <meta name="description" content="Eric Shi Mechatronics Engineering at the University of Waterloo. Running for Weef Director for Winter 2016">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+{% endblock %}
+     {% load staticfiles %}
+
+
+{% block content %}
+  
+  <section class="color-9">
+<div class = "centerabout">
+      <br>
+     
+     <table>
+     <tr>
+    <img src="{% static 'images/weef.png' %}" style= "width: 50%;max-height: 100% float:left" />
+     <img src="{% static 'images/eweef.jpg' %}" style= "width: 50%;max-height: 100% float:left"/>
+     </div>
+</tr>
+</table>
+      <p class = "h1arial"> Hello my name is Eric Shi and I'm currently serving as the 'A' society director for the Waterloo Engineering Endowment Foundation (WEEF). My term will last 16 months starting September 2015. I am working on improving the infrastructure WEEF has and if you are an undergraduate engineering student at the University of Waterloo and would like to help, please send me an email. 
+      </p>
+   
+      <br>
+   </div>
+
+</section>
+<section class="color-8">
+    <div class = "container">
+   <header>
+      <h1>2015-2016 WEEF Projects</h1>
+   </header>
+</div>
+	<div class = "aboutbody">
+		<div class = "aboutcolfirst">
+		<h3>WEEF Website Overhaul</h3>
+		<p class = "tab">&bull;  Backend PHP and SQL work  </p>
+		<p class = "tab">&bull;  Front end and user interface design </p>
+		<p class = "tab">&bull;  Implementation of feedback and proposal system changes  </p>
+
+		<p></p>
+		<p></p>
+		
+		</div>
+		<div class = "aboutcol">
+		<h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Media and Communication</h3>
+		<p class = "tab">&bull;  Following up on funded proposals and getting up to date media for WEEF</p>
+		<p class = "tab">&bull;  Generate up to date WEEF info-graphics to be shown online and in posters in CPH</p>
+		<p></p>
+		<p></p>
+		</div>
+		<div class = "aboutcol">
+		<h3>Undergraduate Labs</h3>
+		<p class = "tab">&bull;  Engage engineering departments about  labs and courses that would most benefit from new equipment or educational resources</p>
+		<p class = "tab">&bull;  Collect feedback from students about which labs could use new equipment</p>
+		<p class = "tab">&bull;  Engage lab instructors about where funding could benefit an undergraduate course</p>
+		</div>
+	</div>
+</section>
+
+<section class="color-8">
+    
+		<div class = "container">
+		<header>
+		<h1> Questions and Concerns</h1>
+		<p class = "about-eric">Please send me a email if you have any questions, suggestions, concerns. I'd like to hear from you.</p>
+		</header>
+		</div>
+	</div>
+</section>
+
+<section class="color-1">
+<br>
+<br>
+</section>
+
+{% endblock %}
