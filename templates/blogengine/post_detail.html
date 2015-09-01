@@ -17,7 +17,12 @@
       
             <h1>{{ object.title }}</h1>
             <h3>{{ object.pub_date }}</h3>
+
+           <header>
+              <h2 class = "h5arial">
             {{ object.text|custom_markdown }}
+              </h2>
+            </header>
             {% if object.category %}
             <div class="col-md-12">
                <a href="{{ object.category.get_absolute_url }}"><span class="label label-primary">{{ object.category.name }}</span></a>
