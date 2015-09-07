@@ -18,7 +18,9 @@ urlpatterns = patterns('',
     url(r'', include('django.contrib.flatpages.urls')),
 
     # Comments
-    url(r'', include('django.contrib.comments.urls'))
+    url(r'', include('django.contrib.comments.urls')),
+
+    url(r'^tinymce/', include('tinymce.urls')),
 )
 
 if settings.DEBUG:

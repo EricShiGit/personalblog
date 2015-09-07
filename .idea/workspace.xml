@@ -1,275 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2111f6fc-48a0-4ef5-a99c-accc1a658663" name="Default" comment="added">
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\blogengine\static\images\old_mathematics.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\blogengine\static\images\old_mathematics_@2X.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\blogengine\static\images\polaroid_@2X.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\admin.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\fixtures\users.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\includes\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0002_auto__add_post.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0003_auto__add_field_post_slug.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0004_auto__add_field_post_author.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0005_auto__add_field_post_site.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0006_auto__add_category__add_field_post_category.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0007_auto__add_field_category_slug.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\0008_auto__add_tag.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\migrations\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\models.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\affix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\alert.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\button.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\modal.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\popover.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\tab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\js\transition.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\badges.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\close.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\code.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\media.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\image.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\resize.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\size.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\modals.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\navs.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\pager.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\print.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\tables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\theme.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\type.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\less\wells.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\bootstrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\404.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\css\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\crossdomain.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\css.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\extend.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\faq.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\html.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\js.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\misc.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\doc\usage.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\img\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\js\plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\js\vendor\jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\js\vendor\modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\html5-boilerplate\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\dist\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\dist\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\dist\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\load.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\script.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\attributes\attr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\attributes\classes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\attributes\prop.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\attributes\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\attributes\val.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\core\access.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\core\init.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\core\ready.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\swap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\data\Data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\data\accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\data\var\data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\data\var\data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\effects\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\event.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\event\alias.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\event\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\exports\amd.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\exports\global.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\manipulation\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\offset.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\queue.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\queue\delay.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\arr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\concat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\push.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\slice.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\var\toString.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\static\bower_components\jquery\src\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\templatetags\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\templatetags\custom_markdown.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\urls.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\blogengine\views.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\django_tutorial_blog_ng\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\django_tutorial_blog_ng\settings.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\django_tutorial_blog_ng\urls.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\django_tutorial_blog_ng\wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\manage.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\templates\blogengine\includes\base.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\templates\blogengine\post_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\templates\blogengine\post_list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\website\django_tutorial_blog_ng\django_tutorial_blog_ng\templates\flatpages\default.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blogengine/home.html" afterPath="$PROJECT_DIR$/templates/blogengine/home.html" />
-    </list>
+    <list default="true" id="2111f6fc-48a0-4ef5-a99c-accc1a658663" name="Default" comment="added" />
     <ignored path="django_tutorial_blog_ng.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,127 +15,28 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="django_tutorial_blog_ng" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blogengine/includes/base.html">
+      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blogengine/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.407408" vertical-offset="936" max-vertical-offset="2669">
-              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blogengine/post_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="799">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoblog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogengine/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.928572" vertical-offset="0" max-vertical-offset="1122">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogengine/static/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.811321" vertical-offset="693" max-vertical-offset="12274">
-              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="476">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogengine/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state vertical-scroll-proportion="0.33333334">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogengine/views.py">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/blogengine/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.25" vertical-offset="0" max-vertical-offset="918">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogengine/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/blogengine/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2972441" vertical-offset="3793" max-vertical-offset="4556">
-              <caret line="232" column="32" selection-start-line="232" selection-start-column="32" selection-end-line="232" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#section#1;n#html#0;n#!!top" expanded="true" />
-                <marker date="1405220787014" expanded="true" signature="9241:9378" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.4362881">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -415,30 +51,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/blogengine/static/css/slush.css" />
-        <option value="$PROJECT_DIR$/blogengine/static/css/component.css" />
-        <option value="$PROJECT_DIR$/blogengine/static/css/code.css" />
-        <option value="$PROJECT_DIR$/blogengine/static/bower.json" />
-        <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/templates/blogengine/post_list.html" />
-        <option value="$PROJECT_DIR$/blogengine/models.py" />
-        <option value="$PROJECT_DIR$/blogengine/urls.py" />
-        <option value="$PROJECT_DIR$/blogengine/views.py" />
-        <option value="$PROJECT_DIR$/templates/blogengine/includes/base.html" />
-        <option value="$PROJECT_DIR$/blogengine/static/css/main.css" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/templates/blogengine/home.html" />
-      </list>
-    </option>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="734" />
+    <option name="x" value="-1" />
+    <option name="width" value="1602" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -466,6 +85,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -481,7 +101,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
+              <option name="myItemId" value="djangoblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,7 +111,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
+              <option name="myItemId" value="djangoblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -505,25 +125,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
+              <option name="myItemId" value="djangoblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -534,8 +136,18 @@
               <option name="myItemId" value="blogengine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="django_tutorial_blog_ng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="djangoblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,7 +157,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
+              <option name="myItemId" value="djangoblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -559,73 +171,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
+              <option name="myItemId" value="djangoblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blogengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_tutorial_blog_ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,14 +189,29 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings />
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="tests" factoryName="py.test">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_tutorial_blog_ng" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -663,11 +228,25 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_tutorial_blog_ng" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
@@ -689,22 +268,6 @@
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="django_tutorial_blog_ng" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -729,7 +292,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -746,28 +309,13 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="django_tutorial_blog_ng" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -777,73 +325,96 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="2111f6fc-48a0-4ef5-a99c-accc1a658663" name="Default" comment="" />
       <created>1405129720849</created>
+      <option name="number" value="Default" />
       <updated>1405129720849</updated>
     </task>
     <task id="LOCAL-00001" summary="new backgrounds">
       <created>1405149673106</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1405149673106</updated>
     </task>
     <task id="LOCAL-00002" summary="adjusted social media made job hover styles mobile friendly">
       <created>1405151096628</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1405151096628</updated>
     </task>
     <task id="LOCAL-00003" summary="Adjusted font of title and date">
       <created>1405161378680</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1405161378680</updated>
     </task>
     <task id="LOCAL-00004" summary="chaning post routing&#10;">
       <created>1405202534400</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1405202534400</updated>
     </task>
     <task id="LOCAL-00005" summary="category and tag now route to /blog/">
       <created>1405202960536</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1405202960536</updated>
     </task>
     <task id="LOCAL-00006" summary="Added home view&#10;">
       <created>1405205150985</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1405205150985</updated>
     </task>
     <task id="LOCAL-00007" summary="Default routing set to home page">
       <created>1405209909978</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1405209909978</updated>
     </task>
     <task id="LOCAL-00008" summary="Render homepage template using HttpResponse">
       <created>1405209933459</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1405209933459</updated>
     </task>
     <task id="LOCAL-00009" summary="Migrated from base.html to home.html&#10;">
       <created>1405210291051</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1405210291051</updated>
     </task>
     <task id="LOCAL-00010" summary="bower config &gt;&gt; references static/bower">
       <created>1405210341699</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1405210341699</updated>
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="734" extended-state="6" />
+    <frame x="-1" y="0" width="1602" height="875" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21781115" sideWeight="0.8859375" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.199375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.1140625" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -858,9 +429,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <MESSAGE value="new backgrounds" />
     <MESSAGE value="adjusted social media made job hover styles mobile friendly" />
     <MESSAGE value="Adjusted font of title and date" />
@@ -875,27 +443,41 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/blogengine/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1441084694107" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441084694107" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441084694107" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/dist/css/bootstrap.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/css/slush.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2584">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="12274">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
@@ -903,7 +485,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="493">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
@@ -911,41 +493,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/includes/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5423">
+        <state vertical-scroll-proportion="0.0">
           <caret line="267" column="43" selection-start-line="267" selection-start-column="43" selection-end-line="267" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="799">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
@@ -953,23 +530,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/dist/css/bootstrap.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/css/slush.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2584">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="12274">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
@@ -977,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="493">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
@@ -985,228 +560,191 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/includes/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6290">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7803681" vertical-offset="23096" max-vertical-offset="105553">
+        <state vertical-scroll-proportion="0.7803681">
           <caret line="1396" column="18" selection-start-line="1396" selection-start-column="18" selection-end-line="1396" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/css/code.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.178572" vertical-offset="218" max-vertical-offset="1275">
+        <state vertical-scroll-proportion="-23.178572">
           <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/dist/css/bootstrap.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/css/slush.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2584">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower_components/bootstrap/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.21428572" vertical-offset="327" max-vertical-offset="901">
+        <state vertical-scroll-proportion="-0.21428572">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05923345" vertical-offset="0" max-vertical-offset="574">
+        <state vertical-scroll-proportion="0.05923345">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="369">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/templatetags/custom_markdown.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="369">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/flatpages/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="369">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/category_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.807693" vertical-offset="255" max-vertical-offset="595">
+        <state vertical-scroll-proportion="9.807693">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/includes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.0" vertical-offset="494" max-vertical-offset="850">
+        <state vertical-scroll-proportion="19.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoblog/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="369">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="2040">
+        <state vertical-scroll-proportion="0.0">
           <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoblog/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="15062">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#60#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogengine/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.928572" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangoblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
@@ -1214,27 +752,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.25" vertical-offset="0" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="799">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
@@ -1242,17 +776,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/includes/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.407408" vertical-offset="936" max-vertical-offset="2669">
-          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogengine/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.811321" vertical-offset="693" max-vertical-offset="12274">
+        <state vertical-scroll-proportion="0.0">
           <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
           <folding />
         </state>
@@ -1260,7 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="476">
+        <state vertical-scroll-proportion="0.46632123">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
@@ -1268,20 +800,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blogengine/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2972441" vertical-offset="3793" max-vertical-offset="4556">
-          <caret line="232" column="32" selection-start-line="232" selection-start-column="32" selection-end-line="232" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.3626943">
+          <caret line="246" column="38" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#section#1;n#html#0;n#!!top" expanded="true" />
-            <marker date="1405220787014" expanded="true" signature="9241:9378" placeholder="..." />
+            <marker date="1441084694107" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441084694107" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441084694107" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogengine/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4226087">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blogengine/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blogengine/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4362881">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

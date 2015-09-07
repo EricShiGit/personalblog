@@ -44,6 +44,8 @@ INSTALLED_APPS = (
     'django.contrib.comments',
     'disqus',
     'debug_toolbar',
+    'tinymce',
+    'django_wysiwyg',
 )
 
 
@@ -123,3 +125,5 @@ STATIC_ROOT = 'staticfiles'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+DJANGO_WYSIWYG_FLAVOR = "tinymce"    # or "tinymce_advanced"
