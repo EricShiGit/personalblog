@@ -1,3 +1,15 @@
+{% load custom_markdown %}
+{% load blog %}
+
+{% block headercontent %}
+
+   <meta charset="utf-8">
+   <title>Eric Shi - Mechatronics Engineer.ing - University of Waterloo - Blog</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="author" content="Eric Shi">
+   <meta name="description" content="Eric Shi Mechatronics Engineering University of Waterloo Blog. Educational robotic tutorials, programming guides, building computers, and other general topics.">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+{% endblock %}
 <!doctype html>
 {% load staticfiles %}
 <html lang="en-US">
@@ -16,7 +28,7 @@
    </head>
 
    <body class="page">
-    
+<a href ="/"> <img src="{% static 'blogmedia/images/ericlogo.jpg' %}"/>   </a> 
       <div class="hero">
          <div class="wrapper">
             <div class="sneaky-scroll" data-velocity="0.1">

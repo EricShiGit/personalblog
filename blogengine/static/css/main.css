@@ -2294,12 +2294,10 @@ nav a:focus {
     transform: translateY(0px);
 }
 
-/*  Sidebar
-    ------------------  */      
-
+/*  Blog side bar  */       
 #sidebar {
     width: 422px;
-    float: left;
+    float: right;
     padding: 4px 0 0 0;
     
     background: url(/static/images/white_wall_hash.png) repeat;
@@ -2574,7 +2572,6 @@ nav a:focus {
 }
 
 .accordion {
-  width: 380px;
   margin: 20px auto;
 }
 .accordion h1, h2, h3, h4 {
@@ -2589,7 +2586,7 @@ nav a:focus {
   padding: 15px 20px;
   background-color:#d4c0ff;
   font-family: Lobster;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: normal;
   color: #8C2318;
 }
@@ -2612,7 +2609,7 @@ nav a:focus {
 .accordion h2 {
   padding: 5px 25px;
   background-color: #ff5b5b;
-  font-size: 1.1rem;
+  font-size: 1.9rem;
   color: #333;
 }
 .accordion h2:hover {

@@ -19,9 +19,19 @@
 </head>
 {% if object_list %} 
 <section class="color-5">
+
 <div class = "container">
+
    <br>
    <div id = "content1">
+    <ul class="pager">
+         {% if page_obj.has_previous %}
+         <li class="previous"><a href="/blog/{{ page_obj.previous_page_number }}/">Previous Page</a></li>
+         {% endif %}
+         {% if page_obj.has_next %}
+         <li class="next"><a href="/blog/{{ page_obj.next_page_number }}/">Next Page</a></li>
+         {% endif %}
+      </ul>
       {% for post in object_list %}
       <div class="content1-pane">
          <article>
@@ -92,7 +102,7 @@
          <h3>Archives</h3>
          <aside class="accordion">
             {% for event_year in test %}
-            <h1>{{event_year.keys.0}}</h1>
+            <h1>Posts in {{event_year.keys.0}}</h1>
             <div>
                {% for month, events in event_year.values.0.items %}
                <!--show only months with events! -->

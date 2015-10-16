@@ -44,8 +44,6 @@ INSTALLED_APPS = (
     'django.contrib.comments',
     'disqus',
     'debug_toolbar',
-    'tinymce',
-    'django_wysiwyg',
 )
 
 
@@ -126,4 +124,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-DJANGO_WYSIWYG_FLAVOR = "tinymce"    # or "tinymce_advanced"
+PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
+
+MEDIA_ROOT = BASE_DIR + '/blogengine/static/blogmedia/'
+MEDIA_URL  = '/media/' 

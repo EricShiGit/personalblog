@@ -6,6 +6,7 @@ from django.utils.text import slugify
 from managers import PostManager
 
 # Create your models here.
+
 class Category(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
@@ -51,6 +52,8 @@ class Post(models.Model):
     category = models.ForeignKey(Category, blank=True, null=True)
     tags = models.ManyToManyField(Tag, blank=True, null=True)
     teaser = models.TextField(blank=True, null=True)
+    docfile = models.FileField(upload_to='images/')
+
     objects = PostManager()
 
     def get_absolute_url(self):

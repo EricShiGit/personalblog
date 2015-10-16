@@ -1,4 +1,5 @@
 from django.conf.urls import patterns, include, url
+from django.conf.urls.static import static
 from django.conf import settings
 from django.contrib import admin
 admin.autodiscover()
@@ -19,8 +20,6 @@ urlpatterns = patterns('',
 
     # Comments
     url(r'', include('django.contrib.comments.urls')),
-
-    url(r'^tinymce/', include('tinymce.urls')),
 )
 
 if settings.DEBUG:
@@ -28,3 +27,4 @@ if settings.DEBUG:
     urlpatterns += patterns('',
         url(r'^__debug__/', include(debug_toolbar.urls)),
     )
+

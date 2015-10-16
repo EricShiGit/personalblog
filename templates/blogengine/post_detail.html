@@ -14,8 +14,10 @@
    <div id = "content1">
       <div class="content1-pane">
          <article>
-      
-            <h1>{{ object.title }}</h1>
+                       <nav class="cl-effect-1">
+               <a href="{{ post.get_absolute_url }}" title="View this post" style="text-decoration:none;" >{{ post.title }}</a>
+               <ul class="postinfo"></ul>
+            </nav>
             <h3>{{ object.pub_date }}</h3>
 
            <header>
@@ -69,10 +71,10 @@
       </ul>
       </p>
       {% get_archive %}
-      <h3>Archives-arino</h3>
+      <h3>Archives</h3>
       <aside class="accordion">
          {% for event_year in test %}
-         <h1>{{event_year.keys.0}}</h1>
+         <h1>Posts in {{event_year.keys.0}}</h1>
          <div>
             {% for month, events in event_year.values.0.items %}
             <!--show only months with events! -->
